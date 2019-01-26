@@ -119,25 +119,7 @@ ModelImporter:
     4300032: Plane.001
     4300034: Cylinder
     4300036: Plane
-    6400000: Cube
-    6400002: Cube.000
-    6400004: Cube.001
-    6400006: Cube.002
-    6400008: Cube.003
-    6400010: Cube.004
-    6400012: Cube.005
-    6400014: Cube.006
-    6400016: Cube.007
-    6400018: Cube.008
-    6400020: Cube.009
-    6400022: Cube.025
-    6400024: Cylinder
-    6400026: Cylinder.001
-    6400028: Cylinder.002
-    6400030: Plane
-    6400032: Plane.001
-    6400034: Plane.002
-    6400036: tracks.007
+    9500000: //RootNode
     10800000: Point
   externalObjects: {}
   materials:
@@ -172,7 +154,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
@@ -191,8 +173,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -219,7 +201,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
