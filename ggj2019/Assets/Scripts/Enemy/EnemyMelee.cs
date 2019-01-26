@@ -52,9 +52,6 @@ public class EnemyMelee : MonoBehaviour
             anim.SetBool("IsAttacking", true);
             LaunchAttack(hitBoxes[0]);
 
-        } else
-        {
-            anim.SetBool("IsAttacking", false);
         }
     }
 }
