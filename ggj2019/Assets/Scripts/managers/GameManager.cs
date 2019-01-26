@@ -7,7 +7,6 @@ public class GameManager : MonoBehaviour
     [HideInInspector] public static int score = 0;
     [HideInInspector] public static int highScore = 0;
 
-    Health playerHP;
     EnemyManager enemyManager;
     // Start is called before the first frame update
     void Start()
@@ -18,7 +17,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(playerHP.currentHP <= 0)
+        if(Health.currentHP <= 0)
         {
             RoundEnding();
         }
