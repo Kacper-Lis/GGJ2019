@@ -141,7 +141,11 @@ ModelImporter:
     6400032: Plane.001
     6400034: Plane.002
     6400036: tracks.007
+<<<<<<< HEAD
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+    9500000: //RootNode
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
     10800000: Point
   externalObjects: {}
   materials:

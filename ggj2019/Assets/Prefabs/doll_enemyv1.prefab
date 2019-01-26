@@ -1,10 +1,14 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &3280363797977604021
 =======
 --- !u!1 &15936289
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!1 &2419347636814364640
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12,6 +16,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363797977604020}
   m_Layer: 0
@@ -21,21 +26,31 @@ GameObject:
   m_Layer: 0
   m_Name: lowerarm.R
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347636814364647}
+  m_Layer: 0
+  m_Name: PullTarget.R_end
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363797977604020
 =======
 --- !u!4 &15936290
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347636814364647
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363797977604021}
   m_LocalRotation: {x: -0.025270961, y: 0.081278175, z: 0.99589014, w: 0.030953731}
@@ -59,6 +74,17 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &80033389
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347636814364640}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.0065861973, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2419347637216736946}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347636854339774
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -66,6 +92,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363798112945946}
   - component: {fileID: 3280363798112945949}
@@ -81,21 +108,31 @@ GameObject:
   m_Layer: 0
   m_Name: head_end
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347636854339773}
+  m_Layer: 0
+  m_Name: feet.R_end
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363798112945946
 =======
 --- !u!4 &80033390
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347636854339773
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363798112945943}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -111,10 +148,23 @@ Transform:
 --- !u!95 &3280363798112945949
 Animator:
   serializedVersion: 3
+=======
+  m_GameObject: {fileID: 2419347636854339774}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.0059936224, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2419347638507953839}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347636860911011
+GameObject:
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 3280363798112945943}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 1db0a53fc45fc43409e00b01d014ece2, type: 3}
@@ -129,10 +179,25 @@ Animator:
   m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!54 &3280363798112945942
 Rigidbody:
+=======
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2419347636860911010}
+  m_Layer: 0
+  m_Name: hand.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2419347636860911010
+Transform:
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 3280363798112945943}
   serializedVersion: 2
   m_Mass: 1
@@ -145,10 +210,24 @@ Rigidbody:
   m_CollisionDetection: 0
 --- !u!65 &3280363798112945947
 BoxCollider:
+=======
+  m_GameObject: {fileID: 2419347636860911011}
+  m_LocalRotation: {x: -0.01611587, y: 0.13357073, z: 0.23533274, w: 0.9625579}
+  m_LocalPosition: {x: -0.0000000014342367, y: 0.009002193, z: 2.6077032e-10}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 0.99999994}
+  m_Children:
+  - {fileID: 2419347637639519640}
+  m_Father: {fileID: 2419347638236454405}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347636964236006
+GameObject:
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 3280363798112945943}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -158,10 +237,26 @@ BoxCollider:
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3280363798112945945
 MonoBehaviour:
+=======
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2419347636964236005}
+  - component: {fileID: 2419347636964236004}
+  m_Layer: 0
+  m_Name: Group31520
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2419347636964236005
+Transform:
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 3280363798112945943}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -173,10 +268,23 @@ MonoBehaviour:
   AI_enemy: {fileID: 3280363798112945943}
 --- !u!195 &3280363798112945948
 NavMeshAgent:
+=======
+  m_GameObject: {fileID: 2419347636964236006}
+  m_LocalRotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 7.5084796, z: 0.8329093}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children: []
+  m_Father: {fileID: 2419347638926660534}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &2419347636964236004
+SkinnedMeshRenderer:
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 3280363798112945943}
   m_Enabled: 1
   m_AgentTypeID: 0
@@ -195,10 +303,79 @@ NavMeshAgent:
   m_ObstacleAvoidanceType: 4
 --- !u!114 &4443628198842283020
 MonoBehaviour:
+=======
+  m_GameObject: {fileID: 2419347636964236006}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1db0a53fc45fc43409e00b01d014ece2, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 1db0a53fc45fc43409e00b01d014ece2, type: 3}
+  m_Bones:
+  - {fileID: 2419347637907215160}
+  - {fileID: 2419347638332272505}
+  - {fileID: 2419347637079658421}
+  - {fileID: 2419347638433678695}
+  - {fileID: 2419347638789823467}
+  - {fileID: 2419347637873734642}
+  - {fileID: 2419347637397571646}
+  - {fileID: 2419347638035819370}
+  - {fileID: 2419347637795701836}
+  - {fileID: 2419347638236454405}
+  - {fileID: 2419347636860911010}
+  - {fileID: 2419347638945856068}
+  - {fileID: 2419347637574973863}
+  - {fileID: 2419347638603302026}
+  - {fileID: 2419347637544876877}
+  - {fileID: 2419347638255835167}
+  - {fileID: 2419347638507953839}
+  - {fileID: 2419347638466056928}
+  - {fileID: 2419347638663142496}
+  - {fileID: 2419347637203677536}
+  - {fileID: 2419347637216736946}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 2419347637907215160}
+  m_AABB:
+    m_Center: {x: 0.0012025279, y: 0.0094889775, z: 0.0018728096}
+    m_Extent: {x: 0.013249505, y: 0.03519489, z: 0.009726731}
+  m_DirtyAABB: 0
+--- !u!1 &2419347637079658422
+GameObject:
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 3280363798112945943}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -220,6 +397,36 @@ MonoBehaviour:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &131574582
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2419347637079658421}
+  m_Layer: 0
+  m_Name: chest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2419347637079658421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2419347637079658422}
+  m_LocalRotation: {x: -0.27180147, y: -0.00000014227439, z: 0.000000008136216, w: 0.96235335}
+  m_LocalPosition: {x: -3.5527136e-17, y: 0.009679475, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2419347638433678695}
+  - {fileID: 2419347637873734642}
+  - {fileID: 2419347637795701836}
+  m_Father: {fileID: 2419347638332272505}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347637199796614
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -227,6 +434,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363798179970618}
   m_Layer: 0
@@ -236,21 +444,31 @@ GameObject:
   m_Layer: 0
   m_Name: Armature
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347637199796613}
+  m_Layer: 0
+  m_Name: PullTarget.L_end
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363798179970618
 =======
 --- !u!4 &131574583
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347637199796613
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363798179970619}
   m_LocalRotation: {x: 0.6894354, y: -0.21898338, z: -0.30708233, w: 0.61840564}
@@ -273,6 +491,17 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &133769673
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347637199796614}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.0065861973, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2419347638663142496}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347637203677537
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -280,6 +509,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363798201187192}
   m_Layer: 0
@@ -289,21 +519,31 @@ GameObject:
   m_Layer: 0
   m_Name: PullTarget.L_end
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347637203677536}
+  m_Layer: 0
+  m_Name: LegIK.R
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363798201187192
 =======
 --- !u!4 &133769674
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347637203677536
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363798201187193}
   m_LocalRotation: {x: -0.0002750743, y: -0.0043438086, z: 0.9999905, w: -0.0000010617222}
@@ -326,6 +566,18 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &138895540
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347637203677537}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0058777393, y: 0.005156387, z: -0.020940749}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2419347638309699679}
+  m_Father: {fileID: 2419347637919706754}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347637216736947
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -333,6 +585,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363798329295712}
   m_Layer: 0
@@ -342,21 +595,31 @@ GameObject:
   m_Layer: 0
   m_Name: neck
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347637216736946}
+  m_Layer: 0
+  m_Name: PullTarget.R
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363798329295712
 =======
 --- !u!4 &138895541
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347637216736946
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363798329295713}
   m_LocalRotation: {x: 0.09922296, y: -0.09637785, z: 0.9901375, w: 0.02222168}
@@ -380,6 +643,18 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &222943944
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347637216736947}
+  m_LocalRotation: {x: 0.0002750743, y: -0.0043438086, z: 0.9999905, w: 0.0000010617222}
+  m_LocalPosition: {x: 0.0056794533, y: -0.0053471145, z: -0.008176776}
+  m_LocalScale: {x: 1, y: 1.0000002, z: 1.0022485}
+  m_Children:
+  - {fileID: 2419347636814364647}
+  m_Father: {fileID: 2419347637919706754}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347637397571647
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -387,6 +662,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363798434842384}
   m_Layer: 0
@@ -396,21 +672,31 @@ GameObject:
   m_Layer: 0
   m_Name: calf.L
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347637397571646}
+  m_Layer: 0
+  m_Name: lowerarm.L
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363798434842384
 =======
 --- !u!4 &222943945
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347637397571646
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363798434842385}
   m_LocalRotation: {x: 0.7071068, y: -0.000000042146866, z: -0.000000042146862, w: 0.7071067}
@@ -436,6 +722,18 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &257934738
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347637397571647}
+  m_LocalRotation: {x: 0.021424722, y: 0.0003580622, z: -0.011212305, w: 0.9997076}
+  m_LocalPosition: {x: -2.2351741e-10, y: 0.009393768, z: 2.9802322e-10}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1.0000001}
+  m_Children:
+  - {fileID: 2419347638035819370}
+  m_Father: {fileID: 2419347637873734642}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347637544876878
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -443,6 +741,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363798558713756}
   m_Layer: 0
@@ -453,21 +752,31 @@ GameObject:
   m_Layer: 0
   m_Name: Group31520
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347637544876877}
+  m_Layer: 0
+  m_Name: hip.R
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363798558713756
 =======
 --- !u!4 &257934739
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347637544876877
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363798558713757}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
@@ -489,10 +798,24 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &257934740
 SkinnedMeshRenderer:
+=======
+  m_GameObject: {fileID: 2419347637544876878}
+  m_LocalRotation: {x: 0.027034037, y: 0.052378166, z: 0.99779075, w: -0.030649224}
+  m_LocalPosition: {x: 0.0043457425, y: 0.0018506408, z: -0.00007718853}
+  m_LocalScale: {x: 1.0000018, y: 1.0000004, z: 1.0000021}
+  m_Children:
+  - {fileID: 2419347638255835167}
+  m_Father: {fileID: 2419347637907215160}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347637574973856
+GameObject:
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 257934738}
   m_Enabled: 1
   m_CastShadows: 1
@@ -559,6 +882,34 @@ SkinnedMeshRenderer:
   m_DirtyAABB: 0
 --- !u!1 &411294368
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2419347637574973863}
+  m_Layer: 0
+  m_Name: calf.L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2419347637574973863
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2419347637574973856}
+  m_LocalRotation: {x: -0.21646687, y: -0.00013422596, z: -0.0063763503, w: 0.9762692}
+  m_LocalPosition: {x: -8.381903e-11, y: 0.012840642, z: -8.754432e-10}
+  m_LocalScale: {x: 0.9999997, y: 0.99999994, z: 1.0000007}
+  m_Children:
+  - {fileID: 2419347638603302026}
+  m_Father: {fileID: 2419347638945856068}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347637639519641
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -566,6 +917,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363798573430979}
   m_Layer: 0
@@ -575,21 +927,31 @@ GameObject:
   m_Layer: 0
   m_Name: feet.R_end
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347637639519640}
+  m_Layer: 0
+  m_Name: hand.R_end
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363798573430979
 =======
 --- !u!4 &411294369
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347637639519640
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363798573430976}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
@@ -616,6 +978,17 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &415966344
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347637639519641}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.0040286677, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2419347636860911010}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347637795701837
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -623,6 +996,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363798801089544}
   m_Layer: 0
@@ -632,21 +1006,31 @@ GameObject:
   m_Layer: 0
   m_Name: LegIK.L
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347637795701836}
+  m_Layer: 0
+  m_Name: upperarm.R
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363798801089544
 =======
 --- !u!4 &415966345
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347637795701836
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363798801089545}
   m_LocalRotation: {x: 0.6661689, y: 0.23165148, z: 0.29945952, w: 0.6425578}
@@ -670,12 +1054,25 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &524325030
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347637795701837}
+  m_LocalRotation: {x: -0.099224, y: -0.09637706, z: 0.9901375, w: -0.02222104}
+  m_LocalPosition: {x: 0.0076069687, y: 0.010426885, z: -0.00075312355}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2419347638236454405}
+  m_Father: {fileID: 2419347637079658421}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347637873734643
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
+<<<<<<< HEAD
   m_Component:
 <<<<<<< HEAD
   - component: {fileID: 3280363798844494915}
@@ -686,21 +1083,32 @@ GameObject:
   m_Layer: 0
   m_Name: calf.R
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_Component:
+  - component: {fileID: 2419347637873734642}
+  m_Layer: 0
+  m_Name: upperarm.L
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363798844494915
 =======
 --- !u!4 &524325031
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347637873734642
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363798844494912}
   m_LocalRotation: {x: 0.0002750743, y: -0.0043438086, z: 0.9999905, w: 0.0000010617222}
@@ -724,6 +1132,18 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &600590051
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347637873734643}
+  m_LocalRotation: {x: 0.09922296, y: -0.09637785, z: 0.9901375, w: 0.02222168}
+  m_LocalPosition: {x: -0.0076069687, y: 0.010426887, z: -0.0007531228}
+  m_LocalScale: {x: 1.0000002, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2419347637397571646}
+  m_Father: {fileID: 2419347637079658421}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347637907215161
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -731,6 +1151,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363798853205889}
   m_Layer: 0
@@ -740,21 +1161,31 @@ GameObject:
   m_Layer: 0
   m_Name: hand.R
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347637907215160}
+  m_Layer: 0
+  m_Name: bottom
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363798853205889
 =======
 --- !u!4 &600590052
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347637907215160
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363798853205918}
   m_LocalRotation: {x: -0.27180147, y: -0.00000014227439, z: 0.000000008136216, w: 0.96235335}
@@ -780,6 +1211,20 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &674603271
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347637907215161}
+  m_LocalRotation: {x: 0.7071068, y: -0.000000042146866, z: -0.000000042146862, w: 0.7071067}
+  m_LocalPosition: {x: -4.72308e-10, y: 0.0037878926, z: 0.0026681637}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2419347638332272505}
+  - {fileID: 2419347638945856068}
+  - {fileID: 2419347637544876877}
+  m_Father: {fileID: 2419347637919706754}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347637919706755
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -787,6 +1232,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363798936770225}
   m_Layer: 0
@@ -796,21 +1242,31 @@ GameObject:
   m_Layer: 0
   m_Name: feet.L_end
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347637919706754}
+  m_Layer: 0
+  m_Name: Armature.001
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363798936770225
 =======
 --- !u!4 &674603272
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347637919706754
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363798936770190}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
@@ -832,6 +1288,22 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &697066324
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347637919706755}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -0, y: 2.3108153, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children:
+  - {fileID: 2419347637907215160}
+  - {fileID: 2419347638466056928}
+  - {fileID: 2419347637203677536}
+  - {fileID: 2419347638663142496}
+  - {fileID: 2419347637216736946}
+  m_Father: {fileID: 2419347638926660534}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347638035819371
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -839,6 +1311,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363799037365047}
   m_Layer: 0
@@ -848,21 +1321,31 @@ GameObject:
   m_Layer: 0
   m_Name: belly
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347638035819370}
+  m_Layer: 0
+  m_Name: hand.L
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363799037365047
 =======
 --- !u!4 &697066325
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347638035819370
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363799037365044}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
@@ -885,6 +1368,18 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &698378720
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347638035819371}
+  m_LocalRotation: {x: -0.016115908, y: -0.13357058, z: -0.23533288, w: 0.9625579}
+  m_LocalPosition: {x: 3.72529e-10, y: 0.009002191, z: 4.9360094e-10}
+  m_LocalScale: {x: 1, y: 1, z: 0.9999999}
+  m_Children:
+  - {fileID: 2419347638229483744}
+  m_Father: {fileID: 2419347637397571646}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347638145254341
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -893,27 +1388,38 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 3280363799056826096}
 =======
   - component: {fileID: 698378721}
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
   m_Layer: 0
   m_Name: hand.R_end
+=======
+  - component: {fileID: 2419347638145254340}
+  m_Layer: 0
+  m_Name: LegIK.L_end
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363799056826096
 =======
 --- !u!4 &698378721
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347638145254340
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363799056826097}
 =======
@@ -934,6 +1440,17 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &706565934
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347638145254341}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.0067397505, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2419347638466056928}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347638229483745
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -941,6 +1458,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363799059182660}
   m_Layer: 0
@@ -950,21 +1468,31 @@ GameObject:
   m_Layer: 0
   m_Name: hip.R
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347638229483744}
+  m_Layer: 0
+  m_Name: hand.L_end
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363799059182660
 =======
 --- !u!4 &706565935
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347638229483744
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363799059182661}
   m_LocalRotation: {x: 0.19968805, y: 0.00000017828347, z: -0.000000012370714, w: 0.97985953}
@@ -988,6 +1516,17 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &719911318
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347638229483745}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.0040286677, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2419347638035819370}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347638236454406
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -995,6 +1534,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363799063885337}
   m_Layer: 0
@@ -1004,21 +1544,31 @@ GameObject:
   m_Layer: 0
   m_Name: lowerarm.L
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347638236454405}
+  m_Layer: 0
+  m_Name: lowerarm.R
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363799063885337
 =======
 --- !u!4 &719911319
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347638236454405
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363799063885334}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
@@ -1041,6 +1591,18 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &783269820
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347638236454406}
+  m_LocalRotation: {x: 0.07140977, y: 0.07413737, z: 0.18344612, w: 0.9776256}
+  m_LocalPosition: {x: 0.0000000010430813, y: 0.00939377, z: -5.2154064e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
+  m_Children:
+  - {fileID: 2419347636860911010}
+  m_Father: {fileID: 2419347637795701836}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347638255835160
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1048,6 +1610,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363799099998270}
   m_Layer: 0
@@ -1057,21 +1620,31 @@ GameObject:
   m_Layer: 0
   m_Name: head
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347638255835167}
+  m_Layer: 0
+  m_Name: calf.R
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363799099998270
 =======
 --- !u!4 &783269821
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347638255835167
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363799099998271}
   m_LocalRotation: {x: 0.027034037, y: 0.052378166, z: 0.99779075, w: -0.030649224}
@@ -1095,6 +1668,18 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &791959979
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347638255835160}
+  m_LocalRotation: {x: -0.15200996, y: 0.00013587014, z: 0.00447769, w: 0.9883688}
+  m_LocalPosition: {x: 7.4505804e-11, y: 0.0128406435, z: -3.7252902e-11}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 1.0000002}
+  m_Children:
+  - {fileID: 2419347638507953839}
+  m_Father: {fileID: 2419347637544876877}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347638264033554
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1102,6 +1687,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363799103516294}
   m_Layer: 0
@@ -1111,21 +1697,31 @@ GameObject:
   m_Layer: 0
   m_Name: hand.L
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347638264033553}
+  m_Layer: 0
+  m_Name: head_end
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363799103516294
 =======
 --- !u!4 &791959980
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347638264033553
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363799103516295}
   m_LocalRotation: {x: 0.021424722, y: 0.0003580622, z: -0.011212305, w: 0.9997076}
@@ -1149,6 +1745,17 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &916543518
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347638264033554}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.0113432845, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2419347638789823467}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347638309699672
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1156,6 +1763,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363799147777725}
   m_Layer: 0
@@ -1165,21 +1773,31 @@ GameObject:
   m_Layer: 0
   m_Name: LegIK.R
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347638309699679}
+  m_Layer: 0
+  m_Name: LegIK.R_end
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363799147777725
 =======
 --- !u!4 &916543519
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347638309699679
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363799147777722}
   m_LocalRotation: {x: -0.016115908, y: -0.13357058, z: -0.23533288, w: 0.9625579}
@@ -1203,6 +1821,17 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1003182893
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347638309699672}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.0067397505, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2419347637203677536}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347638332272506
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1210,6 +1839,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363799174637740}
   m_Layer: 0
@@ -1219,21 +1849,31 @@ GameObject:
   m_Layer: 0
   m_Name: hand.L_end
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347638332272505}
+  m_Layer: 0
+  m_Name: belly
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363799174637740
 =======
 --- !u!4 &1003182894
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347638332272505
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363799174637741}
   m_LocalRotation: {x: 0.076105915, y: 0.00000004940241, z: -0.0000000062819865, w: 0.99709976}
@@ -1256,6 +1896,18 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1033300212
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347638332272506}
+  m_LocalRotation: {x: 0.19968805, y: 0.00000017828347, z: -0.000000012370714, w: 0.97985953}
+  m_LocalPosition: {x: -0, y: 0.0054410696, z: 5.606626e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2419347637079658421}
+  m_Father: {fileID: 2419347637907215160}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347638373456275
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1263,6 +1915,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363799222751733}
   m_Layer: 0
@@ -1272,21 +1925,31 @@ GameObject:
   m_Layer: 0
   m_Name: upperarm.R
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347638373456274}
+  m_Layer: 0
+  m_Name: Armature
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363799222751733
 =======
 --- !u!4 &1033300213
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347638373456274
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363799222751730}
   m_LocalRotation: {x: -0.01611587, y: 0.13357073, z: 0.23533274, w: 0.9625579}
@@ -1310,6 +1973,17 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1246883980
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347638373456275}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -0, y: 2.4341817, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children: []
+  m_Father: {fileID: 2419347638926660534}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347638433678688
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1317,6 +1991,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363799357295679}
   m_Layer: 0
@@ -1326,21 +2001,31 @@ GameObject:
   m_Layer: 0
   m_Name: LegIK.L_end
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347638433678695}
+  m_Layer: 0
+  m_Name: neck
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363799357295679
 =======
 --- !u!4 &1246883981
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347638433678695
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363799357295676}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
@@ -1362,6 +2047,18 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1299214289
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347638433678688}
+  m_LocalRotation: {x: 0.07415684, y: 0.000000025540102, z: -0.000000011694482, w: 0.9972466}
+  m_LocalPosition: {x: -1.7763568e-17, y: 0.0116397105, z: 1.2212453e-17}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 0.99999994}
+  m_Children:
+  - {fileID: 2419347638789823467}
+  m_Father: {fileID: 2419347637079658421}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347638466056929
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1369,6 +2066,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363799393320932}
   m_Layer: 0
@@ -1378,21 +2076,31 @@ GameObject:
   m_Layer: 0
   m_Name: Armature.001
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347638466056928}
+  m_Layer: 0
+  m_Name: LegIK.L
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363799393320932
 =======
 --- !u!4 &1299214290
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347638466056928
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363799393320933}
   m_LocalRotation: {x: -0.099224, y: -0.09637706, z: 0.9901375, w: -0.02222104}
@@ -1420,6 +2128,18 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1356333471
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347638466056929}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0058777295, y: 0.0053445515, z: -0.020616777}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2419347638145254340}
+  m_Father: {fileID: 2419347637919706754}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347638507953832
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1427,6 +2147,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363799576841998}
   m_Layer: 0
@@ -1436,21 +2157,31 @@ GameObject:
   m_Layer: 0
   m_Name: PullTarget.R_end
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347638507953839}
+  m_Layer: 0
+  m_Name: feet.R
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363799576841998
 =======
 --- !u!4 &1356333472
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347638507953839
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363799576841999}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
@@ -1473,6 +2204,18 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1457069093
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347638507953832}
+  m_LocalRotation: {x: 0.6661689, y: 0.23165148, z: 0.29945952, w: 0.6425578}
+  m_LocalPosition: {x: -2.0489097e-10, y: 0.012998142, z: -8.9406965e-10}
+  m_LocalScale: {x: 1.0000019, y: 0.9999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 2419347636854339773}
+  m_Father: {fileID: 2419347638255835167}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347638603302027
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1480,6 +2223,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363799599789988}
   m_Layer: 0
@@ -1489,21 +2233,31 @@ GameObject:
   m_Layer: 0
   m_Name: LegIK.R_end
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347638603302026}
+  m_Layer: 0
+  m_Name: feet.L
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363799599789988
 =======
 --- !u!4 &1457069094
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347638603302026
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363799599789989}
   m_LocalRotation: {x: 0.07415684, y: 0.000000025540102, z: -0.000000011694482, w: 0.9972466}
@@ -1526,6 +2280,18 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1491227416
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347638603302027}
+  m_LocalRotation: {x: 0.6894354, y: -0.21898338, z: -0.30708233, w: 0.61840564}
+  m_LocalPosition: {x: -5.401671e-10, y: 0.01299814, z: -3.352761e-10}
+  m_LocalScale: {x: 1.0000027, y: 0.99999875, z: 0.9999998}
+  m_Children:
+  - {fileID: 2419347638612295250}
+  m_Father: {fileID: 2419347637574973863}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347638612295251
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1533,6 +2299,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363799650799064}
   m_Layer: 0
@@ -1542,21 +2309,31 @@ GameObject:
   m_Layer: 0
   m_Name: feet.R
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347638612295250}
+  m_Layer: 0
+  m_Name: feet.L_end
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363799650799064
 =======
 --- !u!4 &1491227417
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347638612295250
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363799650799065}
   m_LocalRotation: {x: -0.21646687, y: -0.00013422596, z: -0.0063763503, w: 0.9762692}
@@ -1580,6 +2357,17 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1566049105
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347638612295251}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.0059936224, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2419347638603302026}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347638663142497
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1587,6 +2375,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363799683175042}
   - component: {fileID: 3280363799683175045}
@@ -1597,21 +2386,31 @@ GameObject:
   m_Layer: 0
   m_Name: PullTarget.R
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347638663142496}
+  m_Layer: 0
+  m_Name: PullTarget.L
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363799683175042
 =======
 --- !u!4 &1566049106
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347638663142496
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363799683175043}
   m_LocalRotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
@@ -1704,6 +2503,18 @@ SkinnedMeshRenderer:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1573349519
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347638663142497}
+  m_LocalRotation: {x: -0.0002750743, y: -0.0043438086, z: 0.9999905, w: -0.0000010617222}
+  m_LocalPosition: {x: -0.0056794533, y: -0.0053471145, z: -0.008176776}
+  m_LocalScale: {x: 1, y: 1.0000002, z: 1.0022485}
+  m_Children:
+  - {fileID: 2419347637199796613}
+  m_Father: {fileID: 2419347637919706754}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347638789823460
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1711,6 +2522,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363799739530291}
   m_Layer: 0
@@ -1720,21 +2532,31 @@ GameObject:
   m_Layer: 0
   m_Name: chest
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347638789823467}
+  m_Layer: 0
+  m_Name: head
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363799739530291
 =======
 --- !u!4 &1573349520
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347638789823467
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363799739530288}
   m_LocalRotation: {x: 0.07140977, y: 0.07413737, z: 0.18344612, w: 0.9776256}
@@ -1760,6 +2582,18 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1642565638
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347638789823460}
+  m_LocalRotation: {x: 0.076105915, y: 0.00000004940241, z: -0.0000000062819865, w: 0.99709976}
+  m_LocalPosition: {x: 3.3863047e-17, y: 0.0058514974, z: 8.3745205e-11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2419347638264033553}
+  m_Father: {fileID: 2419347638433678695}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2419347638926660525
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1767,6 +2601,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363799809384831}
   m_Layer: 0
@@ -1782,21 +2617,38 @@ GameObject:
   m_Layer: 0
   m_Name: doll_enemyv1
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347638926660534}
+  - component: {fileID: 2419347638926660535}
+  - component: {fileID: 2419347638926660528}
+  - component: {fileID: 2419347638926660529}
+  - component: {fileID: 2419347638926660530}
+  - component: {fileID: 2419347638926660531}
+  - component: {fileID: 2419347638926660524}
+  - component: {fileID: 6084530794866696784}
+  m_Layer: 0
+  m_Name: doll_enemyv1
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363799809384831
 =======
 --- !u!4 &1642565643
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347638926660534
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363799809384828}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
@@ -1809,10 +2661,14 @@ Transform:
 --- !u!1 &3280363799823810264
 =======
   m_GameObject: {fileID: 1642565638}
+=======
+  m_GameObject: {fileID: 2419347638926660525}
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.957, y: 0.047, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
+<<<<<<< HEAD
   - {fileID: 131574583}
   - {fileID: 1299214290}
   - {fileID: 257934739}
@@ -1820,13 +2676,26 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1642565644
+=======
+  - {fileID: 2419347638373456274}
+  - {fileID: 2419347637919706754}
+  - {fileID: 2419347636964236005}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2419347638926660535
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1642565638}
+=======
+  m_GameObject: {fileID: 2419347638926660525}
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 1db0a53fc45fc43409e00b01d014ece2, type: 3}
   m_Controller: {fileID: 9100000, guid: 4bda7029ddfcca342822be6c54196001, type: 2}
@@ -1838,13 +2707,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+<<<<<<< HEAD
 --- !u!54 &1642565639
+=======
+--- !u!54 &2419347638926660528
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1642565638}
+=======
+  m_GameObject: {fileID: 2419347638926660525}
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -1854,26 +2731,42 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+<<<<<<< HEAD
 --- !u!65 &1642565642
+=======
+--- !u!65 &2419347638926660529
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1642565638}
+=======
+  m_GameObject: {fileID: 2419347638926660525}
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!114 &1642565640
+=======
+--- !u!114 &2419347638926660530
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1642565638}
+=======
+  m_GameObject: {fileID: 2419347638926660525}
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7bc7c9b44c024c64bbe76b3e51d086a9, type: 3}
@@ -1881,6 +2774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Sister: {fileID: 0}
   Brother: {fileID: 0}
+<<<<<<< HEAD
   AI_enemy: {fileID: 1642565638}
   enemyHP: {fileID: 1642565641}
 --- !u!114 &1642565641
@@ -1899,12 +2793,20 @@ MonoBehaviour:
   ScorePoints: 5
   delay: 0
 --- !u!195 &1642565645
+=======
+  AI_enemy: {fileID: 2419347638926660525}
+--- !u!195 &2419347638926660531
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 NavMeshAgent:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1642565638}
+=======
+  m_GameObject: {fileID: 2419347638926660525}
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
@@ -1920,6 +2822,7 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+<<<<<<< HEAD
 --- !u!1 &1688235112
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
 GameObject:
@@ -1976,10 +2879,15 @@ Transform:
 --- !u!1 &1709451562
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
 GameObject:
+=======
+--- !u!114 &2419347638926660524
+MonoBehaviour:
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
@@ -2002,10 +2910,24 @@ GameObject:
 --- !u!4 &1709451563
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
 Transform:
+=======
+  m_GameObject: {fileID: 2419347638926660525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dc5d06a8892dc24ab4ed76bfb981ec1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hpM: 50
+  ScorePoints: 15
+  delay: 0
+--- !u!114 &6084530794866696784
+MonoBehaviour:
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363799825284135}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
@@ -2028,6 +2950,22 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1777649828
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  m_GameObject: {fileID: 2419347638926660525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a7074a112747d348a4c725ae6fde531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackRest: 1
+  hitBoxes: []
+  Damage: 10
+  Sister: {fileID: 0}
+  Brother: {fileID: 0}
+  AI_enemy: {fileID: 2419347638926660525}
+  Manager: {fileID: 0}
+--- !u!1 &2419347638945856069
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2035,6 +2973,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 3280363799877415832}
   m_Layer: 0
@@ -2044,21 +2983,31 @@ GameObject:
   m_Layer: 0
   m_Name: hip.L
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - component: {fileID: 2419347638945856068}
+  m_Layer: 0
+  m_Name: hip.L
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &3280363799877415832
 =======
 --- !u!4 &1777649829
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+--- !u!4 &2419347638945856068
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3280363799877415833}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
@@ -2072,10 +3021,14 @@ Transform:
 --- !u!1 &3280363799881092529
 =======
   m_GameObject: {fileID: 1777649828}
+=======
+  m_GameObject: {fileID: 2419347638945856069}
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_LocalRotation: {x: -0.025270961, y: 0.081278175, z: 0.99589014, w: 0.030953731}
   m_LocalPosition: {x: -0.0043457416, y: 0.0018506408, z: -0.0000771875}
   m_LocalScale: {x: 1.0000023, y: 1.0000002, z: 1.000003}
   m_Children:
+<<<<<<< HEAD
   - {fileID: 222943945}
   m_Father: {fileID: 1924648961}
   m_RootOrder: 1
@@ -2187,4 +3140,9 @@ Transform:
   m_Father: {fileID: 1573349520}
   m_RootOrder: 1
 >>>>>>> parent of 897d2f0... Merge pull request #6 from xLisu/MadScientist
+=======
+  - {fileID: 2419347637574973863}
+  m_Father: {fileID: 2419347637907215160}
+  m_RootOrder: 1
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

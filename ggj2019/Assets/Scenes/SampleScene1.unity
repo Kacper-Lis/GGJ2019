@@ -38,7 +38,11 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
+<<<<<<< HEAD
   m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+=======
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -289,6 +293,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+<<<<<<< HEAD
+=======
+--- !u!1001 &213878558
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100038, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+      propertyPath: m_Name
+      value: room21
+      objectReference: {fileID: 0}
+    - target: {fileID: 400038, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400038, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400038, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400038, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400038, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400038, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400038, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400038, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400038, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400038, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400038, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 --- !u!114 &484984653 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8189107573624355759, guid: 7dbd3c966a905d741bbe6649ae0d1a42,
@@ -447,6 +511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startHP: 100
   HealthSlider: {fileID: 484984653}
+<<<<<<< HEAD
 --- !u!1001 &769749429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -516,6 +581,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82291176f6266694cac7d9bcaa4007cf, type: 3}
+=======
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 --- !u!1 &878616454
 GameObject:
   m_ObjectHideFlags: 0
@@ -622,6 +689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Brother: {fileID: 0}
   projectiles: []
+<<<<<<< HEAD
 --- !u!1001 &1105413871
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -743,6 +811,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+=======
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 --- !u!1001 &1373025922
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1310,86 +1380,164 @@ MonoBehaviour:
   hitBoxes:
   - {fileID: 1827107828}
   swordDamage: 10
+<<<<<<< HEAD
 --- !u!1001 &3280363799738406673
+=======
+--- !u!1001 &2419347638436835139
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 3280363798112945943, guid: 9caa71fce98371e408ab2e0b592be6a5,
+=======
+    - target: {fileID: 2419347638926660525, guid: 9caa71fce98371e408ab2e0b592be6a5,
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
         type: 3}
       propertyPath: m_Name
       value: doll_enemyv1
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 3280363798112945946, guid: 9caa71fce98371e408ab2e0b592be6a5,
+=======
+    - target: {fileID: 2419347638926660534, guid: 9caa71fce98371e408ab2e0b592be6a5,
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.957
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 3280363798112945946, guid: 9caa71fce98371e408ab2e0b592be6a5,
+=======
+    - target: {fileID: 2419347638926660534, guid: 9caa71fce98371e408ab2e0b592be6a5,
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.047
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 3280363798112945946, guid: 9caa71fce98371e408ab2e0b592be6a5,
+=======
+    - target: {fileID: 2419347638926660534, guid: 9caa71fce98371e408ab2e0b592be6a5,
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 3280363798112945946, guid: 9caa71fce98371e408ab2e0b592be6a5,
+=======
+    - target: {fileID: 2419347638926660534, guid: 9caa71fce98371e408ab2e0b592be6a5,
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 3280363798112945946, guid: 9caa71fce98371e408ab2e0b592be6a5,
+=======
+    - target: {fileID: 2419347638926660534, guid: 9caa71fce98371e408ab2e0b592be6a5,
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 3280363798112945946, guid: 9caa71fce98371e408ab2e0b592be6a5,
+=======
+    - target: {fileID: 2419347638926660534, guid: 9caa71fce98371e408ab2e0b592be6a5,
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 3280363798112945946, guid: 9caa71fce98371e408ab2e0b592be6a5,
+=======
+    - target: {fileID: 2419347638926660534, guid: 9caa71fce98371e408ab2e0b592be6a5,
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 3280363798112945946, guid: 9caa71fce98371e408ab2e0b592be6a5,
+=======
+    - target: {fileID: 2419347638926660534, guid: 9caa71fce98371e408ab2e0b592be6a5,
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
         type: 3}
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 3280363798112945946, guid: 9caa71fce98371e408ab2e0b592be6a5,
+=======
+    - target: {fileID: 2419347638926660534, guid: 9caa71fce98371e408ab2e0b592be6a5,
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 3280363798112945946, guid: 9caa71fce98371e408ab2e0b592be6a5,
+=======
+    - target: {fileID: 2419347638926660534, guid: 9caa71fce98371e408ab2e0b592be6a5,
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 3280363798112945946, guid: 9caa71fce98371e408ab2e0b592be6a5,
+=======
+    - target: {fileID: 2419347638926660534, guid: 9caa71fce98371e408ab2e0b592be6a5,
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 3280363798112945945, guid: 9caa71fce98371e408ab2e0b592be6a5,
+=======
+    - target: {fileID: 2419347638926660530, guid: 9caa71fce98371e408ab2e0b592be6a5,
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
         type: 3}
       propertyPath: Sister
       value: 
       objectReference: {fileID: 156417120}
+<<<<<<< HEAD
     - target: {fileID: 3280363798112945945, guid: 9caa71fce98371e408ab2e0b592be6a5,
+=======
+    - target: {fileID: 2419347638926660530, guid: 9caa71fce98371e408ab2e0b592be6a5,
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
         type: 3}
       propertyPath: Brother
       value: 
       objectReference: {fileID: 1954318358}
+<<<<<<< HEAD
     - target: {fileID: 1642565643, guid: 9caa71fce98371e408ab2e0b592be6a5, type: 3}
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+=======
+    - target: {fileID: 6084530794866696784, guid: 9caa71fce98371e408ab2e0b592be6a5,
+        type: 3}
+      propertyPath: Sister
+      value: 
+      objectReference: {fileID: 156417120}
+    - target: {fileID: 6084530794866696784, guid: 9caa71fce98371e408ab2e0b592be6a5,
+        type: 3}
+      propertyPath: Brother
+      value: 
+      objectReference: {fileID: 1954318358}
+    - target: {fileID: 6084530794866696784, guid: 9caa71fce98371e408ab2e0b592be6a5,
+        type: 3}
+      propertyPath: Manager
+      value: 
+      objectReference: {fileID: 646094186}
+>>>>>>> parent of 4003e95... Merge branch 'SuppaHacka' into MadScientist
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9caa71fce98371e408ab2e0b592be6a5, type: 3}
