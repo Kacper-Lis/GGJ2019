@@ -9,13 +9,17 @@ public class EnemyMovement : MonoBehaviour
     public GameObject Sister;
     public GameObject Brother;
     public GameObject AI_enemy;
+    
     Transform brother;
     Transform sister;
     //public GameObject playerHP;
     public EnemyHealth enemyHP;
+    
     NavMeshAgent nav;
     float toSisterDistance;
     float toBrotherDistance;
+
+    private bool Attack;
 
     
 
@@ -33,6 +37,7 @@ public class EnemyMovement : MonoBehaviour
         // enemy = GameObject.FindGameObjectWithTag ("enemy").transform;
     }
 
+   
 
     void Update ()
     {
@@ -52,6 +57,9 @@ public class EnemyMovement : MonoBehaviour
                 {
                 nav.SetDestination (Sister.transform.position);
                 }
+
+            
+
         }
 
 
