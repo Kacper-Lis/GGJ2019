@@ -39,9 +39,10 @@ public class BrotherFight : MonoBehaviour
             if (!targetRigidbody)
                 continue;
             //damage
-            EnemyHealth targetHealth = targetRigidbody.GetComponent<EnemyHealth>();
-            targetHealth.DamageEnemy(swordDamage);
-            Debug.Log("Collider");
+            MeleeHealth meleeHealth = targetRigidbody.GetComponent<MeleeHealth>();
+            RangeHealth rangeHealth = targetRigidbody.GetComponent<RangeHealth>();
+            meleeHealth.DamageEnemy(swordDamage);
+            rangeHealth.DamageEnemy(swordDamage);
         }
     }
 }
