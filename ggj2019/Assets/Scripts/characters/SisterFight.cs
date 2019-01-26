@@ -63,14 +63,13 @@ public class SisterFight : MonoBehaviour
 
             targetRigidbody.AddExplosionForce(knockForce, exploCenter.position, exploRadius);
 
-            EnemyHealth targetHealth = targetRigidbody.GetComponent<EnemyHealth>();
-
-            if (!targetHealth)
-                continue;
+            MeleeHealth meleeHealth = targetRigidbody.GetComponent<MeleeHealth>();
+            RangeHealth rangeHealth = targetRigidbody.GetComponent<RangeHealth>();
 
             float damage = CalculateDamage(targetRigidbody.position);
-            
-            targetHealth.DamageEnemy(damage);
+
+            meleeHealth.DamageEnemy(damage);
+            rangeHealth.DamageEnemy(damage);
         }
     }
     private float CalculateDamage(Vector3 targetPosition)
