@@ -47,9 +47,9 @@ public class EnemyMelee : MonoBehaviour
         toSisterDistance = Vector3.Distance(Sister.transform.position, AI_enemy.transform.position);
         toBrotherDistance = Vector3.Distance(Brother.transform.position, AI_enemy.transform.position);
 
-        if (toSisterDistance < 0.8 || toBrotherDistance < 0.8)
+        if (toSisterDistance < 5 || toBrotherDistance < 5)
         {
-            anim.SetTrigger("AttTriger");
+            anim.SetBool("IsAttacking", true);
             LaunchAttack(hitBoxes[0]);
 
         }
