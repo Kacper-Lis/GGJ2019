@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Health : MonoBehaviour
 {
     public float startHP = 100f;
-    public float currentHP;
+    public static float currentHP;
     public Slider HealthSlider;
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,7 @@ public class Health : MonoBehaviour
         }
         HealthSlider.value = currentHP;
     }
-    public void TakeDamage(int damage)
+    public static void TakeDamage(int damage)
     {
         currentHP -= damage;
     }
