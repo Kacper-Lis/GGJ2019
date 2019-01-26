@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyManager : MonoBehaviour {
     public GameObject enemy_1;
     public GameObject enemy_2;
-    public int wave;
+    public int wave = 1;
     public Health playerHP;
 
     public float spawnTime = 3f;
@@ -16,48 +16,42 @@ public class EnemyManager : MonoBehaviour {
     // Start is called before the first frame update
     void Start()
     {
-
+        StartCoroutine(Spawn());
     }
     private void Update()
     {
-        if (playerHP.currentHP <= 0)
-            return;
-        if (currentScore >= 200)
-        {
-            wave = 3;
-        }else if(currentScore >= 100)
-        {
-            wave = 2;
-        }else if(currentScore >= 20)
-        {
-            wave = 1;
-        }
-        Spawn();
+
     }
     // For the First Enemy
-    void Spawn()
+    IEnumerator Spawn()
     {
-        if (playerHP.currentHP <= 0)
-            return;
-        switch (wave)
+        yield return new WaitForSeconds(2f);
+        while (true)
         {
-            case 2:
-                wave2();
-                break;
-            case 1:
+            if (currentScore >= 200)
+            {
+                wave = 3;
+            }
+            else if (currentScore >= 100)
+            {
+                wave = 2;
+            }
+            else
+            {
                 wave1();
-                break;
+            }
         }
-        void wave1()
-        {
-            Debug.Log("wywolana");
-        }
-        void wave2()
-        {
+    }
+    void wave1()
+    {
 
-        };
+        Debug.Log("sas");
+    }
+    void wave2()
+    {
 
     }
+
     public void EnableEnemy()
     {
 
