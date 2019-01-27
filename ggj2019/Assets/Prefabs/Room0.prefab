@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100014, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+  - {fileID: 2100000, guid: db884b4b0621aed4fb17f55e80545de9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -149,7 +149,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100028, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+  - {fileID: 2100000, guid: eec1b99b52f0f2a4c9f5515d554c20d0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -310,7 +310,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100022, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+  - {fileID: 2100000, guid: eedc199e823787e459b841a2873ea179, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -401,7 +401,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100004, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+  - {fileID: 2100000, guid: 456b431fefa0b7141bf042baa740152f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -492,7 +492,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100024, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+  - {fileID: 2100000, guid: 232d4e376fc722c4b822933ef6c88931, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -583,7 +583,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100028, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+  - {fileID: 2100000, guid: 09a14c49b4aecd1468d8d8dfc909faf7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -674,7 +674,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100006, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+  - {fileID: 2100000, guid: 21cc34fb3b606ae4491165dc6568a8d0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -707,6 +707,101 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.06472738, y: 0.121977344, z: 0.030879121}
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:ggj2019/Assets/Prefabs/Room.prefab
+--- !u!1 &735957662
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 735957663}
+  - component: {fileID: 735957666}
+  - component: {fileID: 735957665}
+  - component: {fileID: 5101318314004933677}
+  m_Layer: 0
+  m_Name: Cube.025
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &735957663
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735957662}
+  m_LocalRotation: {x: -0.63322973, y: -0.3146747, z: -0.31467474, w: 0.6332296}
+  m_LocalPosition: {x: -10.219257, y: 0.22437274, z: -6.0737724}
+  m_LocalScale: {x: 29.19665, y: 29.19665, z: 29.19665}
+  m_Children: []
+  m_Father: {fileID: 137160619}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &735957666
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735957662}
+  m_Mesh: {fileID: 4300002, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+--- !u!23 &735957665
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735957662}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4f4383c37ef32984d8f429a1c20a6b77, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &5101318314004933677
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735957662}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300002, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+=======
+>>>>>>> SuppaHacka:ggj2019/Assets/Prefabs/Room0.prefab
 --- !u!1 &822919667
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,7 +860,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100018, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+  - {fileID: 2100000, guid: cbeb82148ea8a124baa1ae69f7b0ab7c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -857,7 +952,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100010, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+  - {fileID: 2100000, guid: b88e3d2b3ebbd8c499ecb51b7330da16, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1018,7 +1113,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100016, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+  - {fileID: 2100000, guid: 503b425684bd3f4438ff3e4646a7ecee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1110,7 +1205,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+  - {fileID: 2100000, guid: d34486ecebbc2404cb717df8aa7eb30b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1201,7 +1296,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100032, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+  - {fileID: 2100000, guid: 8c5eb5c18054f914797dfe9bb44781cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1293,7 +1388,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100026, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+  - {fileID: 2100000, guid: ca0ea1795bd766249ae86e26897948f3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1384,7 +1479,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100008, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+  - {fileID: 2100000, guid: b2eaf29492c32884cb59bf4d449f37ea, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1476,7 +1571,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100004, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+  - {fileID: 2100000, guid: 0b6bf81e50777fa49a607bb8350f9dce, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1568,7 +1663,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100012, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+  - {fileID: 2100000, guid: 02ba1f7e8ce50d041b414228d701a1d1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1660,7 +1755,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100020, guid: 42d30a84abadf6d488894f9af35116dc, type: 3}
+  - {fileID: 2100000, guid: 2d95900f25da82446a374c86c783bb74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1693,17 +1788,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.04899124, y: 0.05159716, z: 0.020000013}
   m_Center: {x: 8.814727e-12, y: 0.00059154624, z: 1.4103563e-10}
+<<<<<<< HEAD:ggj2019/Assets/Prefabs/Room.prefab
+--- !u!65 &5944000575937048983
+=======
 --- !u!65 &195948534886787505
+>>>>>>> SuppaHacka:ggj2019/Assets/Prefabs/Room0.prefab
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:ggj2019/Assets/Prefabs/Room.prefab
+  m_GameObject: {fileID: 7701174858841599968}
+=======
   m_GameObject: {fileID: 9388940458031457}
+>>>>>>> SuppaHacka:ggj2019/Assets/Prefabs/Room0.prefab
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
+<<<<<<< HEAD:ggj2019/Assets/Prefabs/Room.prefab
+  m_Size: {x: 0.00870971, y: 0.0078286575, z: 0.007828655}
+  m_Center: {x: -0.04370918, y: 0.00010314896, z: -0.021314947}
+--- !u!65 &4679763888134878826
+=======
   m_Size: {x: 0.028191596, y: 0.028191568, z: 0.020000001}
   m_Center: {x: 0.4219491, y: 0.18038324, z: -0.00031764735}
 --- !u!65 &782872439577680443
@@ -1941,19 +2049,7 @@ BoxCollider:
   m_Size: {x: 0.02, y: 0.020000001, z: 0.020000001}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &5944000575937048983
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7701174858841599968}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.00870971, y: 0.0078286575, z: 0.007828655}
-  m_Center: {x: -0.04370918, y: 0.00010314896, z: -0.021314947}
---- !u!65 &4679763888134878826
+>>>>>>> SuppaHacka:ggj2019/Assets/Prefabs/Room0.prefab
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1964,19 +2060,52 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
+<<<<<<< HEAD:ggj2019/Assets/Prefabs/Room.prefab
   m_Size: {x: 0.008091424, y: 0.007828657, z: 0.007828655}
   m_Center: {x: 0.04316897, y: -0.00019710159, z: -0.021314947}
 --- !u!65 &6946480204272198179
+=======
+  m_Size: {x: 0.00870971, y: 0.0078286575, z: 0.007828655}
+  m_Center: {x: -0.04370918, y: 0.00010314896, z: -0.021314947}
+--- !u!65 &4679763888134878826
+>>>>>>> SuppaHacka:ggj2019/Assets/Prefabs/Room0.prefab
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:ggj2019/Assets/Prefabs/Room.prefab
   m_GameObject: {fileID: 7701174858841599980}
+=======
+  m_GameObject: {fileID: 7701174858841599970}
+>>>>>>> SuppaHacka:ggj2019/Assets/Prefabs/Room0.prefab
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
+<<<<<<< HEAD:ggj2019/Assets/Prefabs/Room.prefab
+  m_Size: {x: 0.007828661, y: 0.008447854, z: 0.007828657}
+  m_Center: {x: -0.0000695819, y: -0.043618448, z: -0.02141016}
+--- !u!65 &3975993077277616522
+=======
+  m_Size: {x: 0.008091424, y: 0.007828657, z: 0.007828655}
+  m_Center: {x: 0.04316897, y: -0.00019710159, z: -0.021314947}
+--- !u!65 &6946480204272198179
+>>>>>>> SuppaHacka:ggj2019/Assets/Prefabs/Room0.prefab
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7701174858841599982}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+<<<<<<< HEAD:ggj2019/Assets/Prefabs/Room.prefab
+  m_Size: {x: 0.007828659, y: 0.008617407, z: 0.007828655}
+  m_Center: {x: -0.000069577596, y: 0.043391753, z: -0.021314947}
+=======
   m_Size: {x: 0.007828661, y: 0.008447854, z: 0.007828657}
   m_Center: {x: -0.0000695819, y: -0.043618448, z: -0.02141016}
 --- !u!65 &3975993077277616522
@@ -2173,6 +2302,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 9388940458000321}
   m_PrefabAsset: {fileID: 0}
+>>>>>>> SuppaHacka:ggj2019/Assets/Prefabs/Room0.prefab
 --- !u!1001 &7701174858841696582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2228,6 +2358,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300006, guid: 2a24ce02bce231c45b23f2a8149a73a8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82dfaf870ec4fee47907f52430fa0cb9, type: 2}
+    - target: {fileID: 2300004, guid: 2a24ce02bce231c45b23f2a8149a73a8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82dfaf870ec4fee47907f52430fa0cb9, type: 2}
+    - target: {fileID: 2300002, guid: 2a24ce02bce231c45b23f2a8149a73a8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82dfaf870ec4fee47907f52430fa0cb9, type: 2}
+    - target: {fileID: 2300000, guid: 2a24ce02bce231c45b23f2a8149a73a8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82dfaf870ec4fee47907f52430fa0cb9, type: 2}
+    - target: {fileID: 2300008, guid: 2a24ce02bce231c45b23f2a8149a73a8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82dfaf870ec4fee47907f52430fa0cb9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a24ce02bce231c45b23f2a8149a73a8, type: 3}
 --- !u!4 &7701174858841568198 stripped
