@@ -190,7 +190,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 137160617, guid: df7f3dce22cd8274b887a23cf77ba270, type: 3}
       propertyPath: m_Name
-      value: Room
+      value: Room0
       objectReference: {fileID: 0}
     - target: {fileID: 137160619, guid: df7f3dce22cd8274b887a23cf77ba270, type: 3}
       propertyPath: m_LocalPosition.x
