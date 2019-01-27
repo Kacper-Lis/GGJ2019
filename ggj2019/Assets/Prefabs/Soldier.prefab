@@ -225,9 +225,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bc7c9b44c024c64bbe76b3e51d086a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sister: {fileID: 0}
-  Brother: {fileID: 0}
-  AI_enemy: {fileID: 6108675938077131748}
+  Sister: {fileID: 382457007535096021, guid: e1d3eaedc95361041a36795bd6a32b7b, type: 3}
+  Brother: {fileID: 52086177, guid: cbd8ac7b0be12514c9dc7aacf946ae40, type: 3}
 --- !u!114 &5977125983277005811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,7 +242,6 @@ MonoBehaviour:
   bolt: {fileID: 5195843242394790918, guid: 3842eadca340f1c40b41a5af8a48b39e, type: 3}
   boltEnd: {fileID: 6453387399002542986}
   Cooldown: 5
-  anim: {fileID: 0}
 --- !u!114 &6495404460347143312
 MonoBehaviour:
   m_ObjectHideFlags: 0

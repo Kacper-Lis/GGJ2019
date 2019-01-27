@@ -6,10 +6,8 @@ public class Brother : MonoBehaviour
 {
     public float moveSpeed;
     public float rotateSpeed;
-    public Animator anim;
 
-    
-
+    Animator anim;
     Rigidbody playerBody;
     float moveX;
     float rotateX;

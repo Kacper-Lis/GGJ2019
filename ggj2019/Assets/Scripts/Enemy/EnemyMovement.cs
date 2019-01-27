@@ -8,7 +8,6 @@ public class EnemyMovement : MonoBehaviour
 
     public GameObject Sister;
     public GameObject Brother;
-    public GameObject AI_enemy;
     
     Transform brother;
     Transform sister;
@@ -26,8 +25,8 @@ public class EnemyMovement : MonoBehaviour
     void Awake ()
     {
         
-        toSisterDistance = Vector3.Distance(Sister.transform.position, AI_enemy.transform.position);
-        toBrotherDistance = Vector3.Distance(Brother.transform.position, AI_enemy.transform.position);
+        toSisterDistance = Vector3.Distance(Sister.transform.position, transform.position);
+        toBrotherDistance = Vector3.Distance(Brother.transform.position, transform.position);
         // Health = player.GetComponent <Health> ();
         // enemyHealth = GetComponent <EnemyHealth> ();
         nav = GetComponent <NavMeshAgent> ();
@@ -41,8 +40,8 @@ public class EnemyMovement : MonoBehaviour
 
     void Update ()
     {
-        toSisterDistance = Vector3.Distance(Sister.transform.position, AI_enemy.transform.position);
-        toBrotherDistance = Vector3.Distance(Brother.transform.position, AI_enemy.transform.position);
+        toSisterDistance = Vector3.Distance(Sister.transform.position, transform.position);
+        toBrotherDistance = Vector3.Distance(Brother.transform.position, transform.position);
 
 
         // set the destination of the nav mesh agent to the player.

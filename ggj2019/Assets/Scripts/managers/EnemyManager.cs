@@ -100,15 +100,4 @@ public class EnemyManager : MonoBehaviour {
             Instantiate(enemy_R, spawnPointsR[i]);
         }
     }
-    public void EnableEnemy()
-    {
-
-    }
-    public void DisableEnemy()
-    {
-        EnemyMovement enemyMovement = GetComponent<EnemyMovement>();
-        enemyMovement.enabled = false;
-    }
-
-   
 }

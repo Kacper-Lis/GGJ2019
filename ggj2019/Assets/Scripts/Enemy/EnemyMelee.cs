@@ -6,12 +6,11 @@ public class EnemyMelee : MonoBehaviour
 {
 
     public float attackRest = 1f;
-    public Collider[] hitBoxes;
+    public Collider hitBoxes;
     public int Damage = 10;
 
-    public GameObject Sister;
-    public GameObject Brother;
-    public GameObject AI_enemy;
+    public Transform Sister;
+    public Transform Brother;
     public GameObject Manager;
 
     float toSisterDistance;
@@ -44,14 +43,13 @@ public class EnemyMelee : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        toSisterDistance = Vector3.Distance(Sister.transform.position, AI_enemy.transform.position);
-        toBrotherDistance = Vector3.Distance(Brother.transform.position, AI_enemy.transform.position);
+        toSisterDistance = Vector3.Distance(Sister.position, transform.position);
+        toBrotherDistance = Vector3.Distance(Brother.position, transform.position);
 
         if (toSisterDistance < 0.8 || toBrotherDistance < 0.8)
         {
             anim.SetTrigger("AttTriger");
-            LaunchAttack(hitBoxes[0]);
-
+            LaunchAttack(hitBoxes);
         }
     }
 }
