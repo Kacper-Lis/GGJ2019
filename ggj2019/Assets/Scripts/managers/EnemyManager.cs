@@ -106,8 +106,8 @@ public class EnemyManager : MonoBehaviour {
     }
     public void DisableEnemy()
     {
-        EnemyMovenemt enemyMovenemt = GetComponent<EnemyMovenemt>();
-        enemyMovenemt.enabled = false;
+        EnemyMovement enemyMovement = GetComponent<EnemyMovement>();
+        enemyMovement.enabled = false;
     }
 
    

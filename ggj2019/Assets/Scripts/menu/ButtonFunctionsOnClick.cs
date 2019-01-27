@@ -7,7 +7,7 @@ public class ButtonFunctionsOnClick : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("SampleScene1");
+        SceneManager.LoadScene("SampleScene");
     }
 
     public void LeaveGame()
