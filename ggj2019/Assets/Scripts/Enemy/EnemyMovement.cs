@@ -13,7 +13,7 @@ public class EnemyMovement : MonoBehaviour
     Transform brother;
     Transform sister;
     //public GameObject playerHP;
-    //public EnemyHealth enemyHP;
+    public EnemyHealth enemyHP;
     
     NavMeshAgent nav;
     float toSisterDistance;
@@ -41,18 +41,36 @@ public class EnemyMovement : MonoBehaviour
 
     void Update ()
     {
-        toSisterDistance = Vector3.Distance(Sister.transform.position, AI_enemy.transform.position);
-        toBrotherDistance = Vector3.Distance(Brother.transform.position, AI_enemy.transform.position);
-
-
-        // set the destination of the nav mesh agent to the player.
-        if (toSisterDistance > toBrotherDistance)
+        // If the enemy and the player have health left aka Game is on!
+        if(enemyHP.enemyHP > 0)
         {
-            nav.SetDestination(Brother.transform.position);
+            toSisterDistance = Vector3.Distance(Sister.transform.position, AI_enemy.transform.position);
+            toBrotherDistance = Vector3.Distance(Brother.transform.position, AI_enemy.transform.position);
+
+
+            // set the destination of the nav mesh agent to the player.
+            if (toSisterDistance > toBrotherDistance)
+                {
+                nav.SetDestination (Brother.transform.position);
+                }
+            else
+                {
+                nav.SetDestination (Sister.transform.position);
+                }
+
+            
+
         }
+
+
+
+
+
+        // Otherwise
         else
         {
-            nav.SetDestination(Sister.transform.position);
+            // disable the nav mesh agent.
+            nav.enabled = false;
         }
     }
 }
