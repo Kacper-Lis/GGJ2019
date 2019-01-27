@@ -25,7 +25,7 @@ public class MeleeHealth : MonoBehaviour
             // destroy(gameObject, delay);
 
             //GameManager.score += ScorePoints;
-            Destroy(gameObject, delay);
+            Destroy(gameObject);
         }
     }
 }

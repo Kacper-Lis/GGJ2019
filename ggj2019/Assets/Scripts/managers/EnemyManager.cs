@@ -66,7 +66,6 @@ public class EnemyManager : MonoBehaviour {
     {
         Instantiate(enemy_M, spawnPointsM[0]);
         Instantiate(enemy_R, spawnPointsR[0]);
-        Debug.Log("sas");
     }
     void wave2()
     {

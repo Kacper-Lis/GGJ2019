@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy_M: {fileID: 599198283345210446, guid: 8912c3a3f3982c1439be4231257dd433, type: 3}
-  enemy_R: {fileID: 0}
+  enemy_R: {fileID: 6108675938077131748, guid: 982e24c010cce2d49a6f616e485bb424, type: 3}
   wave: 1
   playerHP: {fileID: 9029718560865884897}
   spawnPointsM:

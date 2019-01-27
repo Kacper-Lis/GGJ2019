@@ -6,7 +6,7 @@ public class BrotherFight : MonoBehaviour
 {
     public float attackRest = 1f;
     public Collider[] hitBoxes;
-    public float swordDamage = 10f;
+    public float swordDamage = 30f;
     private Animator anim;
 
     private float attackNext = 1f;
@@ -41,8 +41,14 @@ public class BrotherFight : MonoBehaviour
             if (!targetRigidbody)
                 continue;
             //damage
+            Debug.Log("hpM");
             MeleeHealth meleeHealth = targetRigidbody.GetComponent<MeleeHealth>();
+            if (!meleeHealth)
+                continue;
             RangeHealth rangeHealth = targetRigidbody.GetComponent<RangeHealth>();
+            if (!rangeHealth)
+                continue;
+            Debug.Log("hpMasda");
             meleeHealth.DamageEnemy(swordDamage);
             rangeHealth.DamageEnemy(swordDamage);
         }
