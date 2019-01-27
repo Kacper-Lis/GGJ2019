@@ -48,7 +48,10 @@ public class EnemyMelee : MonoBehaviour
 
         if (toSisterDistance < 0.8 || toBrotherDistance < 0.8)
         {
+<<<<<<< HEAD
             //anim.SetTrigger("AttTriger");
+=======
+>>>>>>> MadScientist
             LaunchAttack(hitBoxes);
         }
     }

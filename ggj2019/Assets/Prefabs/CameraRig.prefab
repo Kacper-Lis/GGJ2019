@@ -48,8 +48,8 @@ MonoBehaviour:
   m_ScreenEdgeBuffer: 4
   m_MinSize: 6.5
   m_Targets:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 52086182, guid: cbd8ac7b0be12514c9dc7aacf946ae40, type: 3}
+  - {fileID: 382457007535096025, guid: e1d3eaedc95361041a36795bd6a32b7b, type: 3}
 --- !u!1 &249784257031676031
 GameObject:
   m_ObjectHideFlags: 0
