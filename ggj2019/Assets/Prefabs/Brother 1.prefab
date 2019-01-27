@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 34986210}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: hand.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 79902219}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: hip.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,7 +70,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 116395065}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 143066209}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: hand.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130,7 +130,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 169187161}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: PullTarget.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -161,7 +161,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 191235888}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LegIK.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,7 +191,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 210286216}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -222,7 +222,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 216940535}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: calf.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -253,7 +253,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 216988888}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -286,7 +286,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 275470196}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LegIK.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -316,7 +316,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 371642495}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: feet.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -349,7 +349,7 @@ GameObject:
   - component: {fileID: 488127105}
   - component: {fileID: 488127107}
   - component: {fileID: 488127106}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: shield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -395,7 +395,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 84dedd627126dd94fb0a58a026f0f5f8, type: 3}
+  - {fileID: 2100000, guid: 2b3c634e8ca83044dbcacdc9be917637, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -424,7 +424,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 495168839}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: lowerarm.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -460,7 +460,7 @@ GameObject:
   - component: {fileID: 735443372}
   - component: {fileID: 735443371}
   - component: {fileID: 735443375}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Brother 1
   m_TagString: Players
   m_Icon: {fileID: 0}
@@ -533,9 +533,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 1
-  m_Height: 5.9
+  m_Height: 6.71
   m_Direction: 1
-  m_Center: {x: 0, y: 2.8, z: 0}
+  m_Center: {x: 0, y: 2.9, z: 0}
 --- !u!114 &735443371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -573,7 +573,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 781635584}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: upperarm.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -605,7 +605,7 @@ GameObject:
   m_Component:
   - component: {fileID: 876196210}
   - component: {fileID: 876196211}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LowPoly_boi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -643,7 +643,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100010, guid: 84dedd627126dd94fb0a58a026f0f5f8, type: 3}
+  - {fileID: 2100000, guid: faedf3dce7f44db41a74b318d5fc8bd1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -705,7 +705,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 962625513}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: PullTarget.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -735,7 +735,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1003617926}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: head_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -765,7 +765,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1100647272}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: upperarm.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -796,7 +796,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1134435260}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: hand.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -828,7 +828,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1169286417}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -859,7 +859,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1196566067}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LegIK.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -894,7 +894,7 @@ GameObject:
   - component: {fileID: 1213601618}
   - component: {fileID: 1213601617}
   - component: {fileID: 1213601616}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -940,7 +940,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100002, guid: 84dedd627126dd94fb0a58a026f0f5f8, type: 3}
+  - {fileID: 2100000, guid: 569085511fa28aa46b602809193c41fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -998,7 +998,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1395919310}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1031,7 +1031,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1431709953}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Armature.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1067,7 +1067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1495899281}
   - component: {fileID: 1495899282}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LowPoly_boi2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1105,7 +1105,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100006, guid: 84dedd627126dd94fb0a58a026f0f5f8, type: 3}
+  - {fileID: 2100000, guid: 6893b54196e29114b9d808d50a721a29, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1168,7 +1168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1534340895}
   - component: {fileID: 1534340896}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LowPoly_boi3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1206,7 +1206,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100008, guid: 84dedd627126dd94fb0a58a026f0f5f8, type: 3}
+  - {fileID: 2100000, guid: 71b9748bd71caa64197534f3a6cfbf51, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1268,7 +1268,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1611180036}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: feet.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1300,7 +1300,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1656335177}
   - component: {fileID: 1656335178}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LowPoly_boi1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1338,7 +1338,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100004, guid: 84dedd627126dd94fb0a58a026f0f5f8, type: 3}
+  - {fileID: 2100000, guid: 7903091601b7e5f4ab350f15fc8672c9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1400,7 +1400,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1750484844}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LegIK.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1431,7 +1431,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1760933982}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: belly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1462,7 +1462,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1786532991}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: PullTarget.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1493,7 +1493,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1796589300}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: PullTarget.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1523,7 +1523,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1827069379}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: feet.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1553,7 +1553,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1835500651}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: hip.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1584,7 +1584,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1890902371}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: hand.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1616,7 +1616,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1979143452}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: lowerarm.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1647,7 +1647,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2040525552}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: calf.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1678,7 +1678,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2143817745}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: feet.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}

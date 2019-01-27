@@ -24,7 +24,7 @@ public class BrotherFight : MonoBehaviour
     {
         enemys = GameObject.FindGameObjectsWithTag("Enemy");
 
-        if (Input.GetKeyDown(KeyCode.G) && attackNext < Time.time)
+        if (Input.GetButton("FireM1") && attackNext < Time.time)
         {
             attackNext = Time.time + attackRest;
             //przeciagnac objekt miecza

@@ -40,16 +40,13 @@ public class EnemyMelee : MonoBehaviour
     }*/
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("uff");
         if (AnimatorIsPlaying("Attack"))
         {
             for (int i = 0; i < players.Length; i++)
             {
-                Debug.Log("uff");
                 Collider hit = players[i].GetComponent<Collider>();
                 if (other == hit)
                 {
-                    Debug.Log("uff");
                     //RangeHealth rangeHealth = hit.GetComponent<RangeHealth>();
                     Health.TakeDamage(Damage);
                     //rangeHealth.DamageEnemy(swordDamage);

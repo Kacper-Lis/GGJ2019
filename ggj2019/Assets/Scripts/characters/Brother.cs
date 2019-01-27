@@ -23,7 +23,8 @@ public class Brother : MonoBehaviour
     }
     void Start()
     {
-        
+
+
     }
 
     // Update is called once per frame
@@ -31,8 +32,10 @@ public class Brother : MonoBehaviour
     {
         Movement();
         Rotate();
-
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S))
+        float checkX = Input.GetAxisRaw("Vertical1");
+        moveX = Input.GetAxis("Vertical1");
+        rotateX = Input.GetAxis("Horizontal1");
+        if (checkX ==1 || checkX == -1)
         {
             anim.SetBool("IsWalking", true); 
         } else
@@ -43,13 +46,13 @@ public class Brother : MonoBehaviour
     }
     void Movement()
     {
-        moveX = Input.GetAxis("Vertical");
+        
         movement = transform.forward * moveX * moveSpeed * Time.deltaTime;
         playerBody.MovePosition(playerBody.position + movement);
     }
     void Rotate()
     {
-        rotateX = Input.GetAxis("Horizontal");
+        
         float turn = rotateX * rotateSpeed;
         rotation = Quaternion.Euler(0f, turn, 0f);
 
