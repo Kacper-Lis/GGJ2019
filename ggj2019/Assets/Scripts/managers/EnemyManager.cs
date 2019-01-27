@@ -32,7 +32,7 @@ public class EnemyManager : MonoBehaviour {
     IEnumerator Spawn()
     {
  
-        while (true)
+        while (Health.currentHP > 0)
         {
             if(currentScore >= 500)
             {

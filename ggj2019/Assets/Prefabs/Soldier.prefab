@@ -151,8 +151,9 @@ GameObject:
   - component: {fileID: 2840639860075021769}
   - component: {fileID: 6061175848754970378}
   - component: {fileID: 5977125983277005811}
-  - component: {fileID: 6495404460347143312}
   - component: {fileID: 5434797346870796709}
+  - component: {fileID: 2097611013542179136}
+  - component: {fileID: 8443685466874120054}
   m_Layer: 9
   m_Name: Soldier
   m_TagString: Enemy
@@ -242,21 +243,6 @@ MonoBehaviour:
   bolt: {fileID: 5195843242394790918, guid: 3842eadca340f1c40b41a5af8a48b39e, type: 3}
   boltEnd: {fileID: 6453387399002542986}
   Cooldown: 5
---- !u!114 &6495404460347143312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6108675938077131748}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a53511286bfb185489213e2f6a9562d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hpR: 30
-  ScorePoints: 25
-  delay: 0
 --- !u!195 &5434797346870796709
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -279,6 +265,34 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!65 &2097611013542179136
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6108675938077131748}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.12, y: 4.74, z: 1.06}
+  m_Center: {x: 0, y: 2.21, z: -0.66}
+--- !u!114 &8443685466874120054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6108675938077131748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dc5d06a8892dc24ab4ed76bfb981ec1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hpM: 50
+  ScorePoints: 15
+  delay: 0
 --- !u!1 &6374523769542352054
 GameObject:
   m_ObjectHideFlags: 0

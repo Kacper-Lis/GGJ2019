@@ -43,7 +43,6 @@ GameObject:
   - component: {fileID: 52086183}
   - component: {fileID: 52086180}
   - component: {fileID: 52086178}
-  - component: {fileID: 52086179}
   m_Layer: 0
   m_Name: Brother
   m_TagString: Players
@@ -133,24 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 4
-  rotateSpeed: 4
-  anim: {fileID: 0}
---- !u!114 &52086179
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 52086177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a81f4d792cfbef4688fdeaeae69cd0a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackRest: 1
-  hitBoxes:
-  - {fileID: 1710329563}
-  swordDamage: 10
+  rotateSpeed: 8
 --- !u!1 &61858131
 GameObject:
   m_ObjectHideFlags: 0
@@ -1442,6 +1424,7 @@ GameObject:
   - component: {fileID: 1710329565}
   - component: {fileID: 1710329564}
   - component: {fileID: 1710329563}
+  - component: {fileID: 528799814}
   m_Layer: 0
   m_Name: sword
   m_TagString: Untagged
@@ -1519,8 +1502,24 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: -0.03, y: 0.0690674, z: 0.015412085}
+  m_Size: {x: 0.03, y: 0.0690674, z: 0.015412085}
   m_Center: {x: 0.012122527, y: 0.05316947, z: -0.027827173}
+--- !u!114 &528799814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710329562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a81f4d792cfbef4688fdeaeae69cd0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackRest: 1
+  hitBoxes: []
+  enemys: []
+  swordDamage: 30
 --- !u!1 &1784358106
 GameObject:
   m_ObjectHideFlags: 0
