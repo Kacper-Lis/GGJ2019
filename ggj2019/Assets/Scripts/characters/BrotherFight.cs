@@ -6,12 +6,10 @@ public class BrotherFight : MonoBehaviour
 {
     public float attackRest = 1f;
     public Collider[] hitBoxes;
-<<<<<<< HEAD
     public float swordDamage = 30f;
-=======
+
     public GameObject[] enemys;
-    public float swordDamage = 10f;
->>>>>>> MadScientist
+
     private Animator anim;
 
     private float attackNext = 1f;
@@ -61,8 +59,8 @@ public class BrotherFight : MonoBehaviour
     }*/
     private void OnTriggerEnter(Collider other)
     {
-            while (AnimatorIsPlaying("Attacking"))
-        {
+            //while (AnimatorIsPlaying("Attacking"))
+        //{
                 for (int i = 0; i < enemys.Length; i++)
                 {
 
@@ -75,7 +73,7 @@ public class BrotherFight : MonoBehaviour
                         //rangeHealth.DamageEnemy(swordDamage);
                     }
                 }
-        }
+        //}
     }
     bool AnimatorIsPlaying()
     {
