@@ -985,9 +985,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a81f4d792cfbef4688fdeaeae69cd0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRest: 1
+  attackRest: 0.5
   hitBoxes: []
-  swordDamage: 30
+  swordDamage: 20
   enemys: []
 --- !u!1 &1395919309
 GameObject:

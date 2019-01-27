@@ -13,7 +13,7 @@ public class EnemyManager : MonoBehaviour {
 
     float waitTime;
     float spawnCD = 2;
-    float currentScore = 0f;
+    float currentScore = 600f;
     // Start is called before the first frame update
     void Start()
     {
