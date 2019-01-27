@@ -12,6 +12,7 @@ public class EnemyManager : MonoBehaviour {
     public Transform[] spawnPointsR;
 
     float waitTime;
+    float spawnCD = 1;
     float currentScore = 0f;
     // Start is called before the first frame update
     void Start()
@@ -20,12 +21,34 @@ public class EnemyManager : MonoBehaviour {
     }
     private void Update()
     {
-        if(wave == 5){
-            waitTime = 2;
-        }else if(wave == 3)
-        {   waitTime = 3f;
-        }else if (wave == 1)
-        {   waitTime = 4f;
+        if (Time.time > spawnCD)
+        {
+            spawnCD = Time.time + waitTime;
+
+            currentScore = GameManager.score;
+            if (wave == 5)
+            {
+                waitTime = 2;
+
+            }
+            else if (wave == 4)
+            {
+
+            }
+            else if (wave == 3)
+            {
+                waitTime = 3f;
+
+            }
+            else if (wave == 2)
+            {
+
+            }
+            else if (wave == 1)
+            {
+                waitTime = 4f;
+                wave1();
+            }
         }
     }
     // For the First Enemy

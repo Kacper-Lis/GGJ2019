@@ -5,7 +5,7 @@ using UnityEngine;
 public class MeleeHealth : MonoBehaviour
 {
     public float hpM = 50f;
-    public float ScorePoints = 15;
+    public int ScorePoints = 40;
     public float delay = 0;
     // Start is called before the first frame update
     void Start()
@@ -23,9 +23,11 @@ public class MeleeHealth : MonoBehaviour
         if (hpM <= 0)
         {
             // destroy(gameObject, delay);
-
-            //GameManager.score += ScorePoints;
-            Destroy(gameObject);
+            if (gameObject != null)
+            {
+                GameManager.IncreaseScore(ScorePoints);
+                Destroy(gameObject);
+            }
         }
     }
 }

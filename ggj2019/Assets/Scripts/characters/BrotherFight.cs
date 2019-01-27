@@ -59,8 +59,8 @@ public class BrotherFight : MonoBehaviour
     }*/
     private void OnTriggerEnter(Collider other)
     {
-            //while (AnimatorIsPlaying("Attacking"))
-        //{
+            if (AnimatorIsPlaying("Attacking"))
+        {
                 for (int i = 0; i < enemys.Length; i++)
                 {
 
@@ -73,7 +73,7 @@ public class BrotherFight : MonoBehaviour
                         //rangeHealth.DamageEnemy(swordDamage);
                     }
                 }
-        //}
+        }
     }
     bool AnimatorIsPlaying()
     {
