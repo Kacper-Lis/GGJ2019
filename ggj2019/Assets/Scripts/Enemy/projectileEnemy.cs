@@ -34,6 +34,7 @@ public class projectileEnemy : MonoBehaviour
         }
 
     }
+    
     public void DestroyBullet()
     {
         Destroy(this.gameObject);
