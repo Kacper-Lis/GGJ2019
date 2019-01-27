@@ -881,12 +881,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9029718560865884903, guid: b9ab171c335e6dd40beacc5b987136e5,
         type: 3}
-      propertyPath: enemy_R
-      value: 
-      objectReference: {fileID: 382457007535096021, guid: e1d3eaedc95361041a36795bd6a32b7b,
-        type: 3}
-    - target: {fileID: 9029718560865884903, guid: b9ab171c335e6dd40beacc5b987136e5,
-        type: 3}
       propertyPath: spawnPointsM.Array.data[0]
       value: 
       objectReference: {fileID: 1080030236}

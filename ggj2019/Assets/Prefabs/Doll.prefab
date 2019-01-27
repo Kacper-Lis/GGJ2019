@@ -905,6 +905,7 @@ GameObject:
   - component: {fileID: 599198282944348309}
   - component: {fileID: 599198282944348308}
   - component: {fileID: 599198282944348311}
+  - component: {fileID: 7629236090779603959}
   m_Layer: 9
   m_Name: Cylinder
   m_TagString: Untagged
@@ -979,11 +980,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 599198282944348305}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.01, z: 0.03}
   m_Center: {x: -0.006626941, y: 0.0049930806, z: 0.013}
+--- !u!114 &7629236090779603959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599198282944348305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a7074a112747d348a4c725ae6fde531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackRest: 1
+  Damage: 10
+  players: []
+  Sister: {fileID: 382457007535096025, guid: e1d3eaedc95361041a36795bd6a32b7b, type: 3}
+  Brother: {fileID: 52086182, guid: cbd8ac7b0be12514c9dc7aacf946ae40, type: 3}
+  Manager: {fileID: 9029718560865884902, guid: b9ab171c335e6dd40beacc5b987136e5, type: 3}
 --- !u!1 &599198283030238846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1194,7 +1213,6 @@ GameObject:
   - component: {fileID: 599198283345210438}
   - component: {fileID: 599198283345210433}
   - component: {fileID: 599198283345210432}
-  - component: {fileID: 599198283345210435}
   - component: {fileID: 599198283345210434}
   - component: {fileID: 599198283345210445}
   - component: {fileID: 599198283345210444}
@@ -1256,24 +1274,6 @@ CapsuleCollider:
   m_Height: 6.53
   m_Direction: 1
   m_Center: {x: 0, y: 3.54, z: 0}
---- !u!114 &599198283345210435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 599198283345210446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a7074a112747d348a4c725ae6fde531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackRest: 1
-  hitBoxes: {fileID: 599198282944348311}
-  Damage: 10
-  Sister: {fileID: 382457007535096025, guid: e1d3eaedc95361041a36795bd6a32b7b, type: 3}
-  Brother: {fileID: 52086182, guid: cbd8ac7b0be12514c9dc7aacf946ae40, type: 3}
-  Manager: {fileID: 9029718560865884902, guid: b9ab171c335e6dd40beacc5b987136e5, type: 3}
 --- !u!114 &599198283345210434
 MonoBehaviour:
   m_ObjectHideFlags: 0

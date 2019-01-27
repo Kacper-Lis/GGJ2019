@@ -61,9 +61,10 @@ public class BrotherFight : MonoBehaviour
     {
             if (AnimatorIsPlaying("Attacking"))
         {
-                for (int i = 0; i < enemys.Length; i++)
+            for (int i = 0; i < enemys.Length; i++)
+            {
+                if (enemys[i] != null)
                 {
-
                     Collider hit = enemys[i].GetComponent<Collider>();
                     if (other == hit)
                     {
@@ -73,6 +74,7 @@ public class BrotherFight : MonoBehaviour
                         //rangeHealth.DamageEnemy(swordDamage);
                     }
                 }
+            }
         }
     }
     bool AnimatorIsPlaying()
