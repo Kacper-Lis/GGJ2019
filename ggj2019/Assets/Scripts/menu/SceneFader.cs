@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System;
 
 public class SceneFader : MonoBehaviour
 {
@@ -19,6 +20,11 @@ public class SceneFader : MonoBehaviour
     void OnEnable()
     {
         StartCoroutine(Fade(FadeDirection.Out));
+    }
+
+    internal IEnumerator FadeAndLoadScene(FadeDirection @out, object mainMenu)
+    {
+        throw new NotImplementedException();
     }
     #endregion
     #region FADE

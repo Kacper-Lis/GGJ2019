@@ -31,6 +31,7 @@ public class Health : MonoBehaviour
 
     void game_over()
     {
-
+        DataHolder.scoreManager = GameManager.score;
+        StartCoroutine(GameObject.FindObjectOfType<SceneFader>().FadeAndLoadScene(SceneFader.FadeDirection.In, "GG"));
     }
 }
