@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -236,6 +236,103 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 81365813, guid: df7f3dce22cd8274b887a23cf77ba270, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: db884b4b0621aed4fb17f55e80545de9, type: 2}
+    - target: {fileID: 131832275, guid: df7f3dce22cd8274b887a23cf77ba270, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: eec1b99b52f0f2a4c9f5515d554c20d0, type: 2}
+    - target: {fileID: 275382243, guid: df7f3dce22cd8274b887a23cf77ba270, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: eedc199e823787e459b841a2873ea179, type: 2}
+    - target: {fileID: 284829850, guid: df7f3dce22cd8274b887a23cf77ba270, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 456b431fefa0b7141bf042baa740152f, type: 2}
+    - target: {fileID: 410527832, guid: df7f3dce22cd8274b887a23cf77ba270, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 232d4e376fc722c4b822933ef6c88931, type: 2}
+    - target: {fileID: 488614658, guid: df7f3dce22cd8274b887a23cf77ba270, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 09a14c49b4aecd1468d8d8dfc909faf7, type: 2}
+    - target: {fileID: 501992898, guid: df7f3dce22cd8274b887a23cf77ba270, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 21cc34fb3b606ae4491165dc6568a8d0, type: 2}
+    - target: {fileID: 735957665, guid: df7f3dce22cd8274b887a23cf77ba270, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4f4383c37ef32984d8f429a1c20a6b77, type: 2}
+    - target: {fileID: 822919670, guid: df7f3dce22cd8274b887a23cf77ba270, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cbeb82148ea8a124baa1ae69f7b0ab7c, type: 2}
+    - target: {fileID: 992732239, guid: df7f3dce22cd8274b887a23cf77ba270, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b88e3d2b3ebbd8c499ecb51b7330da16, type: 2}
+    - target: {fileID: 1538989920, guid: df7f3dce22cd8274b887a23cf77ba270, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 503b425684bd3f4438ff3e4646a7ecee, type: 2}
+    - target: {fileID: 1678361556, guid: df7f3dce22cd8274b887a23cf77ba270, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d34486ecebbc2404cb717df8aa7eb30b, type: 2}
+    - target: {fileID: 1748760084, guid: df7f3dce22cd8274b887a23cf77ba270, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8c5eb5c18054f914797dfe9bb44781cd, type: 2}
+    - target: {fileID: 1775522207, guid: df7f3dce22cd8274b887a23cf77ba270, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ca0ea1795bd766249ae86e26897948f3, type: 2}
+    - target: {fileID: 1888167372, guid: df7f3dce22cd8274b887a23cf77ba270, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b2eaf29492c32884cb59bf4d449f37ea, type: 2}
+    - target: {fileID: 1916861806, guid: df7f3dce22cd8274b887a23cf77ba270, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0b6bf81e50777fa49a607bb8350f9dce, type: 2}
+    - target: {fileID: 2072363166, guid: df7f3dce22cd8274b887a23cf77ba270, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 02ba1f7e8ce50d041b414228d701a1d1, type: 2}
+    - target: {fileID: 2120629696, guid: df7f3dce22cd8274b887a23cf77ba270, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2d95900f25da82446a374c86c783bb74, type: 2}
+    - target: {fileID: 7701174858839666978, guid: df7f3dce22cd8274b887a23cf77ba270,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82dfaf870ec4fee47907f52430fa0cb9, type: 2}
+    - target: {fileID: 7701174858839666980, guid: df7f3dce22cd8274b887a23cf77ba270,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82dfaf870ec4fee47907f52430fa0cb9, type: 2}
+    - target: {fileID: 7701174858839666982, guid: df7f3dce22cd8274b887a23cf77ba270,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82dfaf870ec4fee47907f52430fa0cb9, type: 2}
+    - target: {fileID: 7701174858839666990, guid: df7f3dce22cd8274b887a23cf77ba270,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82dfaf870ec4fee47907f52430fa0cb9, type: 2}
+    - target: {fileID: 7701174858839666976, guid: df7f3dce22cd8274b887a23cf77ba270,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82dfaf870ec4fee47907f52430fa0cb9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df7f3dce22cd8274b887a23cf77ba270, type: 3}
 --- !u!4 &250916420 stripped
