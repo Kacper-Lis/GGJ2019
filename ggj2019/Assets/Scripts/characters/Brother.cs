@@ -32,7 +32,7 @@ public class Brother : MonoBehaviour
         Movement();
         Rotate();
 
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetButton("Vertical1"))
         {
             anim.SetBool("IsWalking", true); 
         } else
@@ -43,13 +43,13 @@ public class Brother : MonoBehaviour
     }
     void Movement()
     {
-        moveX = Input.GetAxis("Vertical");
+        moveX = Input.GetAxis("Vertical1");
         movement = transform.forward * moveX * moveSpeed * Time.deltaTime;
         playerBody.MovePosition(playerBody.position + movement);
     }
     void Rotate()
     {
-        rotateX = Input.GetAxis("Horizontal");
+        rotateX = Input.GetAxis("Horizontal1");
         float turn = rotateX * rotateSpeed;
         rotation = Quaternion.Euler(0f, turn, 0f);
 

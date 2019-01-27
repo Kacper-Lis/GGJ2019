@@ -235,8 +235,9 @@ MonoBehaviour:
   exploRadius: 5
   knockForce: 50
   exploCenter: {fileID: 0}
-  bolt: {fileID: 0}
+  bolt: {fileID: 112145796169279723, guid: d331c464a5dca8e4cb1949a756547fa8, type: 3}
   boltEnd: {fileID: 0}
+  boltColldown: 0.5
   speed: 20
 --- !u!1 &382457008606877509
 GameObject:

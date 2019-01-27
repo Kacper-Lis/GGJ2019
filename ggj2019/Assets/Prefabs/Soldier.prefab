@@ -240,7 +240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a63f9bcb9cfa50644abd3460395bb58c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bolt: {fileID: 5195843242394790918, guid: 3842eadca340f1c40b41a5af8a48b39e, type: 3}
+  bolt: {fileID: 6906263038750171937, guid: 3842eadca340f1c40b41a5af8a48b39e, type: 3}
   boltEnd: {fileID: 6453387399002542986}
   Cooldown: 5
 --- !u!195 &5434797346870796709
