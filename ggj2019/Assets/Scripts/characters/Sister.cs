@@ -28,6 +28,9 @@ public class Sister : MonoBehaviour
     {
         Movement();
         Rotate();
+
+
+
     }
     void Movement()
     {

@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: 58b996c75ce312045ad4fefe4d07b1db
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Armature.001
+    100004: belly
+    100006: BezierCurve
+    100008: bottom
+    100010: calf.L
+    100012: calf.R
+    100014: chest
+    100016: Cylinder
+    100018: feet.L
+    100020: feet.L_end
+    100022: feet.R
+    100024: feet.R_end
+    100026: hand.L
+    100028: hand.L_end
+    100030: hand.R
+    100032: hand.R_end
+    100034: head
+    100036: head_end
+    100038: hip.L
+    100040: hip.R
+    100042: LegIK.L
+    100044: LegIK.L_end
+    100046: LegIK.R
+    100048: LegIK.R_end
+    100050: lowerarm.L
+    100052: lowerarm.R
+    100054: LowPoly_boi
+    100056: LowPoly_girl
+    100058: LowPoly_Hairs
+    100060: neck
+    100062: //RootNode
+    100064: PullTarget.L
+    100066: PullTarget.L_end
+    100068: PullTarget.R
+    100070: PullTarget.R_end
+    100072: Sphere
+    100074: upperarm.L
+    100076: upperarm.R
+    400000: Armature
+    400002: Armature.001
+    400004: belly
+    400006: BezierCurve
+    400008: bottom
+    400010: calf.L
+    400012: calf.R
+    400014: chest
+    400016: Cylinder
+    400018: feet.L
+    400020: feet.L_end
+    400022: feet.R
+    400024: feet.R_end
+    400026: hand.L
+    400028: hand.L_end
+    400030: hand.R
+    400032: hand.R_end
+    400034: head
+    400036: head_end
+    400038: hip.L
+    400040: hip.R
+    400042: LegIK.L
+    400044: LegIK.L_end
+    400046: LegIK.R
+    400048: LegIK.R_end
+    400050: lowerarm.L
+    400052: lowerarm.R
+    400054: LowPoly_boi
+    400056: LowPoly_girl
+    400058: LowPoly_Hairs
+    400060: neck
+    400062: //RootNode
+    400064: PullTarget.L
+    400066: PullTarget.L_end
+    400068: PullTarget.R
+    400070: PullTarget.R_end
+    400072: Sphere
+    400074: upperarm.L
+    400076: upperarm.R
+    2100000: Material
+    2100002: LowPoly_Hairs
+    2100004: Material.000
+    2100006: LowPoly_boi.001
+    2100008: LowPoly_girl
+    2300000: BezierCurve
+    2300002: Cylinder
+    2300004: LowPoly_Hairs
+    2300006: Sphere
+    3300000: BezierCurve
+    3300002: Cylinder
+    3300004: LowPoly_Hairs
+    3300006: Sphere
+    4300000: Sphere
+    4300002: LowPoly_Hairs
+    4300004: Cylinder
+    4300006: BezierCurve
+    4300008: LowPoly_boi
+    4300010: LowPoly_girl
+    7400000: Armature.001|attack
+    7400002: Armature.001|spell
+    7400004: Armature.001|unblock
+    7400006: Armature.001|walk
+    9500000: //RootNode
+    13700000: LowPoly_boi
+    13700002: LowPoly_girl
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
