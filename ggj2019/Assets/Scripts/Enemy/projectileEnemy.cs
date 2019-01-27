@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class projectileEnemy : MonoBehaviour
 {
-    public float speed = 20f;
-    public GameObject[] players;
+    public float speed = 7f;
+    [HideInInspector]public GameObject[] players;
     public int boltDamage = 5;
 
     Rigidbody boltBody;
@@ -16,13 +16,13 @@ public class projectileEnemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        boltBody.velocity = transform.up * speed;
-        Destroy(gameObject, 2f);
+        boltBody.velocity = transform.forward * speed;
+        Destroy(gameObject, 1f);
+        players = GameObject.FindGameObjectsWithTag("Players");
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        players = GameObject.FindGameObjectsWithTag("Players");
         for (int i = 0; i < players.Length; i++)
         {
             Collider hit = players[i].GetComponent<Collider>();
@@ -34,6 +34,7 @@ public class projectileEnemy : MonoBehaviour
         }
 
     }
+    
     public void DestroyBullet()
     {
         Destroy(this.gameObject);

@@ -14,7 +14,9 @@ public class SisterFight : MonoBehaviour
 
         public GameObject bolt;
         public Transform boltEnd;
-        public float speed = 20f;
+        public float boltColldown = 0.5f;
+        public float speed = 7f;
+        private float boltNext;
         Rigidbody boltBody;
 
     
@@ -32,14 +34,15 @@ public class SisterFight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.L) && spellkNext < Time.time)
+        if (Input.GetButton("FireS2") && spellkNext < Time.time)
         {
-            spellkNext += Time.time + spellCooldown;
+            spellkNext = Time.time + spellCooldown;
             //przeciagnac objekt miecza
             LaunchWave();
         }
-        if (Input.GetKeyDown(KeyCode.K))
+        if (Input.GetButton("FireS1") && boltNext < Time.time)
         {
+            boltNext = Time.time + boltColldown;
             LaunchBolt();
         }
     }

@@ -31,6 +31,6 @@ public class Health : MonoBehaviour
 
     void game_over()
     {
-
+        StartCoroutine(GameObject.FindObjectOfType<SceneFader>().FadeAndLoadScene(SceneFader.FadeDirection.In, "GG"));
     }
 }

@@ -7,6 +7,7 @@ public class Brother : MonoBehaviour
     public float moveSpeed;
     public float rotateSpeed;
 
+    Animator anim;
     Rigidbody playerBody;
     float moveX;
     float rotateX;
@@ -17,11 +18,13 @@ public class Brother : MonoBehaviour
     private void Awake()
     {
         playerBody = GetComponent<Rigidbody>();
+        anim = GetComponent<Animator>();
 
     }
     void Start()
     {
-        
+
+
     }
 
     // Update is called once per frame
@@ -29,16 +32,27 @@ public class Brother : MonoBehaviour
     {
         Movement();
         Rotate();
+        float checkX = Input.GetAxisRaw("Vertical1");
+        moveX = Input.GetAxis("Vertical1");
+        rotateX = Input.GetAxis("Horizontal1");
+        if (checkX ==1 || checkX == -1)
+        {
+            anim.SetBool("IsWalking", true); 
+        } else
+        {
+            anim.SetBool("IsWalking", false);
+        }
+        
     }
     void Movement()
     {
-        moveX = Input.GetAxis("Vertical");
+        
         movement = transform.forward * moveX * moveSpeed * Time.deltaTime;
         playerBody.MovePosition(playerBody.position + movement);
     }
     void Rotate()
     {
-        rotateX = Input.GetAxis("Horizontal");
+        
         float turn = rotateX * rotateSpeed;
         rotation = Quaternion.Euler(0f, turn, 0f);
 
