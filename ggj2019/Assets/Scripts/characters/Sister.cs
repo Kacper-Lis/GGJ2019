@@ -7,6 +7,8 @@ public class Sister : MonoBehaviour
     public float moveSpeed;
     public float rotateSpeed;
 
+    private Animator anim;
+
     Rigidbody playerBody;
     float moveX;
     float rotateX;
@@ -16,6 +18,7 @@ public class Sister : MonoBehaviour
     private void Awake()
     {
         playerBody = GetComponent<Rigidbody>();
+        anim = GetComponent<Animator>();
     }
     // Start is called before the first frame update
     void Start()
@@ -28,6 +31,19 @@ public class Sister : MonoBehaviour
     {
         Movement();
         Rotate();
+        float checkX = Input.GetAxisRaw("Vertical1");
+        moveX = Input.GetAxis("Vertical1");
+        rotateX = Input.GetAxis("Horizontal1");
+        if (checkX == 1 || checkX == -1)
+        {
+            anim.SetBool("IsMoving", true);
+        }
+        else
+        {
+            anim.SetBool("IsMoving", false);
+        }
+
+
     }
     void Movement()
     {

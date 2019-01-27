@@ -4,7 +4,8 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - Sister: {fileID: 382457007535096021, guid: e1d3eaedc95361041a36795bd6a32b7b, type: 3}
+  - Sister: {fileID: 1570505705154118218, guid: 547e64996f7f4c548b55e19f6425b234,
+      type: 3}
   - Brother: {fileID: 52086177, guid: cbd8ac7b0be12514c9dc7aacf946ae40, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
