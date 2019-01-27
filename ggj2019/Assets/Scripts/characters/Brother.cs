@@ -6,6 +6,9 @@ public class Brother : MonoBehaviour
 {
     public float moveSpeed;
     public float rotateSpeed;
+    public Animator anim;
+
+    
 
     Rigidbody playerBody;
     float moveX;
@@ -17,6 +20,7 @@ public class Brother : MonoBehaviour
     private void Awake()
     {
         playerBody = GetComponent<Rigidbody>();
+        anim = GetComponent<Animator>();
 
     }
     void Start()
@@ -29,6 +33,12 @@ public class Brother : MonoBehaviour
     {
         Movement();
         Rotate();
+
+        if (Input.GetKey(KeyCode.W))
+        {
+            anim.SetTrigger("Walking"); 
+        }
+        
     }
     void Movement()
     {
