@@ -17,13 +17,6 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Health.currentHP <= 0)
-        {
-            RoundEnding();
-        }
-    }
-    void RoundEnding()
-    {
-        enemyManager.DisableEnemy(); 
+
     }
 }

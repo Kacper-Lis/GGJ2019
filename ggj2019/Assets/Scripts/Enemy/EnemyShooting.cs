@@ -7,10 +7,9 @@ public class EnemyShooting : MonoBehaviour
     public GameObject bolt;
     public Transform boltEnd;
     public float Cooldown = 5f;
-    private float spawn = 5f;
     private float NextAttack;
 
-    public Animator anim;
+    Animator anim;
 
     private void Awake()
     {

@@ -3,7 +3,11 @@ guid: 3a7074a112747d348a4c725ae6fde531
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - hitBoxes: {instanceID: 0}
+  - Sister: {fileID: 382457007535096025, guid: e1d3eaedc95361041a36795bd6a32b7b, type: 3}
+  - Brother: {fileID: 52086182, guid: cbd8ac7b0be12514c9dc7aacf946ae40, type: 3}
+  - Manager: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
