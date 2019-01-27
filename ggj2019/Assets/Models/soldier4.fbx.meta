@@ -21,6 +21,7 @@ ModelImporter:
     3300000: hitbox
     4300000: soldier
     4300002: hitbox
+    6400000: hitbox
     7400000: Armature|shoot
     7400002: Armature|walk
     9500000: //RootNode
@@ -58,7 +59,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
