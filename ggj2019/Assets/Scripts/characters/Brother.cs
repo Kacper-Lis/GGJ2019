@@ -32,7 +32,7 @@ public class Brother : MonoBehaviour
         Movement();
         Rotate();
 
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S))
         {
             anim.SetBool("IsWalking", true); 
         } else
