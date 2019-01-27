@@ -7,8 +7,8 @@ public class SisterFight : MonoBehaviour
 
         public float spellCooldown = 4f;
         public float spellDamage = 20f;
-        public float exploRadius = 5f;
-        public float knockForce = 50f;
+        public float exploRadius = 2f;
+        public float knockForce = 500f;
         public Transform exploCenter;
         private float spellkNext;
 
@@ -71,12 +71,9 @@ public class SisterFight : MonoBehaviour
             targetRigidbody.AddExplosionForce(knockForce, exploCenter.position, exploRadius);
 
             MeleeHealth meleeHealth = targetRigidbody.GetComponent<MeleeHealth>();
-            RangeHealth rangeHealth = targetRigidbody.GetComponent<RangeHealth>();
-
+            Debug.Log("Spell");
             float damage = CalculateDamage(targetRigidbody.position);
-
             meleeHealth.DamageEnemy(damage);
-            rangeHealth.DamageEnemy(damage);
         }
     }
     private float CalculateDamage(Vector3 targetPosition)

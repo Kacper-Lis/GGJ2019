@@ -28,8 +28,9 @@ public class projectileEnemy : MonoBehaviour
             Collider hit = players[i].GetComponent<Collider>();
             if (other == hit)
             {
-                
+                Debug.Log("P hit");
                 Health.TakeDamage(boltDamage);
+                Destroy(gameObject);
             }
         }
 

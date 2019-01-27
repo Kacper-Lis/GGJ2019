@@ -16,7 +16,6 @@ public class BrotherBlock : MonoBehaviour
 
     void Block()
     {
-        Debug.Log("SHIELD UP");
         anim.SetBool("Blocking", true);
         //Change Shield Position to block
     }
@@ -24,7 +23,6 @@ public class BrotherBlock : MonoBehaviour
     void UnBlock()
     {
         //Change Shield Position to no-block
-        Debug.Log("Shield down");
         anim.SetBool("Blocking", false);
     }
 

@@ -226,8 +226,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bc7c9b44c024c64bbe76b3e51d086a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sister: {fileID: 1071625844, guid: 86bf88e26366df54eb7476a29b195eb6, type: 3}
-  Brother: {fileID: 52086177, guid: cbd8ac7b0be12514c9dc7aacf946ae40, type: 3}
+  Sister: {fileID: 1743440016068849976, guid: 86bf88e26366df54eb7476a29b195eb6, type: 3}
+  Brother: {fileID: 1859484131, guid: cbd8ac7b0be12514c9dc7aacf946ae40, type: 3}
 --- !u!114 &5977125983277005811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -253,7 +253,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 1.7
+  m_Speed: 0.5
   m_Acceleration: 4
   avoidancePriority: 50
   m_AngularSpeed: 120
