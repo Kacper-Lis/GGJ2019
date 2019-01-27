@@ -21,10 +21,6 @@ ModelImporter:
     3300000: hitbox
     4300000: soldier
     4300002: hitbox
-<<<<<<< HEAD:ggj2019/Assets/Models/soldier4.fbx.meta
-    6400000: hitbox
-=======
->>>>>>> master:ggj2019/Assets/Models/soldier4.fbx.meta
     7400000: Armature|shoot
     7400002: Armature|walk
     9500000: //RootNode
