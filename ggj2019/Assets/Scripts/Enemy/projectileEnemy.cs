@@ -16,7 +16,7 @@ public class projectileEnemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        boltBody.velocity = transform.up * speed;
+        boltBody.velocity = transform.forward * speed;
         Destroy(gameObject, 2f);
     }
 

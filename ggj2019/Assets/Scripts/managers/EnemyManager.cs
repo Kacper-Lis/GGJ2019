@@ -12,15 +12,35 @@ public class EnemyManager : MonoBehaviour {
     public Transform[] spawnPointsR;
 
     float waitTime;
-    float spawnCD = 1;
+    float spawnCD = 2;
     float currentScore = 0f;
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(Spawn());
+        //StartCoroutine(Spawn());
     }
     private void Update()
     {
+        if (currentScore >= 500)
+        {
+            wave = 5;
+        }
+        else if (currentScore >= 300)
+        {
+            wave = 4;
+        }
+        else if (currentScore >= 200)
+        {
+            wave = 3;
+        }
+        else if (currentScore >= 100)
+        {
+            wave = 2;
+        }
+        else
+        {
+            wave = 1;
+        }
         if (Time.time > spawnCD)
         {
             spawnCD = Time.time + waitTime;
@@ -28,63 +48,58 @@ public class EnemyManager : MonoBehaviour {
             currentScore = GameManager.score;
             if (wave == 5)
             {
-                waitTime = 2;
-
+                waitTime = 3;
+                wave5();
             }
             else if (wave == 4)
             {
-
+                wave4();
             }
             else if (wave == 3)
             {
-                waitTime = 3f;
-
+                waitTime = 4f;
+                wave3();
             }
             else if (wave == 2)
             {
-
+                wave2();
             }
             else if (wave == 1)
             {
-                waitTime = 4f;
+                waitTime = 5f;
                 wave1();
             }
         }
     }
     // For the First Enemy
-    IEnumerator Spawn()
+   /* IEnumerator Spawn()
     {
  
         while (Health.currentHP > 0)
         {
             if(currentScore >= 500)
             {
-                wave5();
                 wave = 5;
             }
             else if(currentScore >= 300)
-            {
-                wave4();
+            { 
                 wave = 4;
             }
             else if (currentScore >= 200)
             {
-                wave3();
                 wave = 3;
             }
             else if (currentScore >= 100)
             {
-                wave2();
                 wave = 2;
             }
             else
             {
-                wave1();
                 wave = 1;
             }
             yield return new WaitForSeconds(waitTime);
         }
-    }
+    }*/
     void wave1()
     {
         Instantiate(enemy_M, spawnPointsM[0]);
