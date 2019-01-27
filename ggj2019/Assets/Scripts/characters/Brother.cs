@@ -36,7 +36,10 @@ public class Brother : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W))
         {
-            anim.SetTrigger("Walking"); 
+            anim.SetBool("IsWalking", true); 
+        } else
+        {
+            anim.SetBool("IsWalking", false);
         }
         
     }

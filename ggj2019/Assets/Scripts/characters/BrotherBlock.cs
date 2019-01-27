@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BrotherBlock : MonoBehaviour
 {
-    float Cdvalue;
+    float Cdvalue = 5f;
     public float BlockCooldown = 4;
     public GameObject Shield;
     private Animator anim;
@@ -34,10 +34,10 @@ public class BrotherBlock : MonoBehaviour
         if (Input.GetKeyDown("space") && Cdvalue < Time.time)
         {
             Block();
-            Cdvalue += Time.time + BlockCooldown;
+            Cdvalue = Time.time + BlockCooldown;
         }
 
-        if (Cdvalue < Time.time + BlockCooldown / 2)
+        if (Cdvalue < Time.time)
         {
             UnBlock();
         }
