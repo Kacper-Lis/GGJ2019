@@ -97,6 +97,11 @@ ModelImporter:
     4300006: LowPoly_boi2
     4300008: LowPoly_boi3
     4300010: LowPoly_boi
+<<<<<<< HEAD
+    6400000: shield
+    6400002: sword
+=======
+>>>>>>> master
     7400000: Armature.001|attack
     7400002: Armature.001|block
     7400004: Armature.001|unblock
@@ -139,7 +144,11 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
+<<<<<<< HEAD
+    addColliders: 1
+=======
     addColliders: 0
+>>>>>>> master
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
