@@ -51,20 +51,28 @@ public class BrotherFight : MonoBehaviour
     }*/
     private void OnTriggerEnter(Collider other)
     {
-        
-        for (int i = 0; i < enemys.Length; i++)
+            while (AnimatorIsPlaying("Attacking"))
         {
+                for (int i = 0; i < enemys.Length; i++)
+                {
 
-            Collider hit = enemys[i].GetComponent<Collider>();
-            if(other == hit)
-            {
-                MeleeHealth meleeHealth = hit.GetComponent<MeleeHealth>();
-                //RangeHealth rangeHealth = hit.GetComponent<RangeHealth>();
-                meleeHealth.DamageEnemy(swordDamage);
-                //rangeHealth.DamageEnemy(swordDamage);
-            }
+                    Collider hit = enemys[i].GetComponent<Collider>();
+                    if (other == hit)
+                    {
+                        MeleeHealth meleeHealth = hit.GetComponent<MeleeHealth>();
+                        //RangeHealth rangeHealth = hit.GetComponent<RangeHealth>();
+                        meleeHealth.DamageEnemy(swordDamage);
+                        //rangeHealth.DamageEnemy(swordDamage);
+                    }
+                }
         }
     }
-    
-        
+    bool AnimatorIsPlaying()
+    {
+        return anim.GetCurrentAnimatorStateInfo(0).normalizedTime < 1;
+    }
+    bool AnimatorIsPlaying(string stateName)
+    {
+        return AnimatorIsPlaying() && anim.GetCurrentAnimatorStateInfo(0).IsName(stateName);
+    }
 }
