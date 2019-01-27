@@ -1,30 +1,89 @@
 fileFormatVersion: 2
-guid: 5480157457d41934facb53f758b42aba
+guid: fe209ff12bbd7a346985a8a6ab689f71
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: Armature
-    100002: Bone
-    100004: Bone_end
-    100006: hitbox
-    100008: soldier
-    100010: //RootNode
+    100002: Armature.001
+    100004: belly
+    100006: bottom
+    100008: calf.L
+    100010: calf.R
+    100012: chest
+    100014: Cylinder
+    100016: //RootNode
+    100018: feet.L
+    100020: feet.L_end
+    100022: feet.R
+    100024: feet.R_end
+    100026: Group31520
+    100028: hand.L
+    100030: hand.L_end
+    100032: hand.R
+    100034: hand.R_end
+    100036: head
+    100038: head_end
+    100040: hip.L
+    100042: hip.R
+    100044: LegIK.L
+    100046: LegIK.L_end
+    100048: LegIK.R
+    100050: LegIK.R_end
+    100052: lowerarm.L
+    100054: lowerarm.R
+    100056: neck
+    100058: PullTarget.L
+    100060: PullTarget.L_end
+    100062: PullTarget.R
+    100064: PullTarget.R_end
+    100066: upperarm.L
+    100068: upperarm.R
     400000: Armature
-    400002: Bone
-    400004: Bone_end
-    400006: hitbox
-    400008: soldier
-    400010: //RootNode
-    2100000: Material.001
-    2100002: No Name
-    2300000: hitbox
-    3300000: hitbox
-    4300000: soldier
-    4300002: hitbox
-    7400000: Armature|shoot
-    7400002: Armature|walk
+    400002: Armature.001
+    400004: belly
+    400006: bottom
+    400008: calf.L
+    400010: calf.R
+    400012: chest
+    400014: Cylinder
+    400016: //RootNode
+    400018: feet.L
+    400020: feet.L_end
+    400022: feet.R
+    400024: feet.R_end
+    400026: Group31520
+    400028: hand.L
+    400030: hand.L_end
+    400032: hand.R
+    400034: hand.R_end
+    400036: head
+    400038: head_end
+    400040: hip.L
+    400042: hip.R
+    400044: LegIK.L
+    400046: LegIK.L_end
+    400048: LegIK.R
+    400050: LegIK.R_end
+    400052: lowerarm.L
+    400054: lowerarm.R
+    400056: neck
+    400058: PullTarget.L
+    400060: PullTarget.L_end
+    400062: PullTarget.R
+    400064: PullTarget.R_end
+    400066: upperarm.L
+    400068: upperarm.R
+    2100000: No Name
+    2100002: Material
+    2300000: Cylinder
+    3300000: Cylinder
+    4300000: Cylinder
+    4300002: Group31520
+    7400000: Armature.001|Action
+    7400002: Armature.001|Attack
+    7400004: Armature.001|Walk
     9500000: //RootNode
-    13700000: soldier
+    13700000: Group31520
   externalObjects: {}
   materials:
     importMaterials: 1

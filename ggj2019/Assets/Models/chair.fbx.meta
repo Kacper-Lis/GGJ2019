@@ -1,30 +1,36 @@
 fileFormatVersion: 2
-guid: 5480157457d41934facb53f758b42aba
+guid: 2a24ce02bce231c45b23f2a8149a73a8
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Armature
-    100002: Bone
-    100004: Bone_end
-    100006: hitbox
-    100008: soldier
-    100010: //RootNode
-    400000: Armature
-    400002: Bone
-    400004: Bone_end
-    400006: hitbox
-    400008: soldier
-    400010: //RootNode
-    2100000: Material.001
-    2100002: No Name
-    2300000: hitbox
-    3300000: hitbox
-    4300000: soldier
-    4300002: hitbox
-    7400000: Armature|shoot
-    7400002: Armature|walk
-    9500000: //RootNode
-    13700000: soldier
+    100000: //RootNode
+    100002: Cylinder
+    100004: Cylinder.003
+    100006: Cylinder.004
+    100008: Cylinder.005
+    100010: Cylinder.006
+    400000: //RootNode
+    400002: Cylinder
+    400004: Cylinder.003
+    400006: Cylinder.004
+    400008: Cylinder.005
+    400010: Cylinder.006
+    2100000: Material.004
+    2300000: Cylinder
+    2300002: Cylinder.003
+    2300004: Cylinder.004
+    2300006: Cylinder.005
+    2300008: Cylinder.006
+    3300000: Cylinder
+    3300002: Cylinder.003
+    3300004: Cylinder.004
+    3300006: Cylinder.005
+    3300008: Cylinder.006
+    4300000: Cylinder.006
+    4300002: Cylinder.005
+    4300004: Cylinder.004
+    4300006: Cylinder.003
+    4300008: Cylinder
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -77,8 +83,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -105,7 +111,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
