@@ -6,7 +6,7 @@ public class EnemyManager : MonoBehaviour {
     public GameObject enemy_M;
     public GameObject enemy_R;
     public int wave = 1;
-    public Health playerHP;
+    //public Health playerHP;
 
     public Transform[] spawnPointsM;
     public Transform[] spawnPointsR;

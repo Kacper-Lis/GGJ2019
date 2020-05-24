@@ -1,111 +1,317 @@
 fileFormatVersion: 2
 guid: 1b306a2f88ef5784f875017c8db0e543
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Armature
-    100002: Armature.001
-    100004: belly
-    100006: //RootNode
-    100008: bottom
-    100010: calf.L
-    100012: calf.R
-    100014: chest
-    100016: feet.L
-    100018: feet.L_end
-    100020: feet.R
-    100022: feet.R_end
-    100024: hand.L
-    100026: hand.L_end
-    100028: hand.R
-    100030: hand.R_end
-    100032: head
-    100034: head_end
-    100036: hip.L
-    100038: hip.R
-    100040: LegIK.L
-    100042: LegIK.L_end
-    100044: LegIK.R
-    100046: LegIK.R_end
-    100048: lowerarm.L
-    100050: lowerarm.R
-    100052: LowPoly_boi
-    100054: LowPoly_boi1
-    100056: LowPoly_boi2
-    100058: LowPoly_boi3
-    100060: neck
-    100062: PullTarget.L
-    100064: PullTarget.L_end
-    100066: PullTarget.R
-    100068: PullTarget.R_end
-    100070: shield
-    100072: sword
-    100074: upperarm.L
-    100076: upperarm.R
-    400000: Armature
-    400002: Armature.001
-    400004: belly
-    400006: //RootNode
-    400008: bottom
-    400010: calf.L
-    400012: calf.R
-    400014: chest
-    400016: feet.L
-    400018: feet.L_end
-    400020: feet.R
-    400022: feet.R_end
-    400024: hand.L
-    400026: hand.L_end
-    400028: hand.R
-    400030: hand.R_end
-    400032: head
-    400034: head_end
-    400036: hip.L
-    400038: hip.R
-    400040: LegIK.L
-    400042: LegIK.L_end
-    400044: LegIK.R
-    400046: LegIK.R_end
-    400048: lowerarm.L
-    400050: lowerarm.R
-    400052: LowPoly_boi
-    400054: LowPoly_boi1
-    400056: LowPoly_boi2
-    400058: LowPoly_boi3
-    400060: neck
-    400062: PullTarget.L
-    400064: PullTarget.L_end
-    400066: PullTarget.R
-    400068: PullTarget.R_end
-    400070: shield
-    400072: sword
-    400074: upperarm.L
-    400076: upperarm.R
-    2100000: No Name
-    2100002: Material.001
-    2100004: LowPoly_boi1
-    2100006: LowPoly_boi2
-    2100008: LowPoly_boi3
-    2100010: LowPoly_boi
-    2300000: shield
-    2300002: sword
-    3300000: shield
-    3300002: sword
-    4300000: shield
-    4300002: sword
-    4300004: LowPoly_boi1
-    4300006: LowPoly_boi2
-    4300008: LowPoly_boi3
-    4300010: LowPoly_boi
-    7400000: Armature.001|attack
-    7400002: Armature.001|block
-    7400004: Armature.001|unblock
-    7400006: Armature.001|walk
-    9500000: //RootNode
-    13700000: LowPoly_boi
-    13700002: LowPoly_boi1
-    13700004: LowPoly_boi2
-    13700006: LowPoly_boi3
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Armature
+  - first:
+      1: 100002
+    second: Armature.001
+  - first:
+      1: 100004
+    second: belly
+  - first:
+      1: 100006
+    second: //RootNode
+  - first:
+      1: 100008
+    second: bottom
+  - first:
+      1: 100010
+    second: calf.L
+  - first:
+      1: 100012
+    second: calf.R
+  - first:
+      1: 100014
+    second: chest
+  - first:
+      1: 100016
+    second: feet.L
+  - first:
+      1: 100018
+    second: feet.L_end
+  - first:
+      1: 100020
+    second: feet.R
+  - first:
+      1: 100022
+    second: feet.R_end
+  - first:
+      1: 100024
+    second: hand.L
+  - first:
+      1: 100026
+    second: hand.L_end
+  - first:
+      1: 100028
+    second: hand.R
+  - first:
+      1: 100030
+    second: hand.R_end
+  - first:
+      1: 100032
+    second: head
+  - first:
+      1: 100034
+    second: head_end
+  - first:
+      1: 100036
+    second: hip.L
+  - first:
+      1: 100038
+    second: hip.R
+  - first:
+      1: 100040
+    second: LegIK.L
+  - first:
+      1: 100042
+    second: LegIK.L_end
+  - first:
+      1: 100044
+    second: LegIK.R
+  - first:
+      1: 100046
+    second: LegIK.R_end
+  - first:
+      1: 100048
+    second: lowerarm.L
+  - first:
+      1: 100050
+    second: lowerarm.R
+  - first:
+      1: 100052
+    second: LowPoly_boi
+  - first:
+      1: 100054
+    second: LowPoly_boi1
+  - first:
+      1: 100056
+    second: LowPoly_boi2
+  - first:
+      1: 100058
+    second: LowPoly_boi3
+  - first:
+      1: 100060
+    second: neck
+  - first:
+      1: 100062
+    second: PullTarget.L
+  - first:
+      1: 100064
+    second: PullTarget.L_end
+  - first:
+      1: 100066
+    second: PullTarget.R
+  - first:
+      1: 100068
+    second: PullTarget.R_end
+  - first:
+      1: 100070
+    second: shield
+  - first:
+      1: 100072
+    second: sword
+  - first:
+      1: 100074
+    second: upperarm.L
+  - first:
+      1: 100076
+    second: upperarm.R
+  - first:
+      4: 400000
+    second: Armature
+  - first:
+      4: 400002
+    second: Armature.001
+  - first:
+      4: 400004
+    second: belly
+  - first:
+      4: 400006
+    second: //RootNode
+  - first:
+      4: 400008
+    second: bottom
+  - first:
+      4: 400010
+    second: calf.L
+  - first:
+      4: 400012
+    second: calf.R
+  - first:
+      4: 400014
+    second: chest
+  - first:
+      4: 400016
+    second: feet.L
+  - first:
+      4: 400018
+    second: feet.L_end
+  - first:
+      4: 400020
+    second: feet.R
+  - first:
+      4: 400022
+    second: feet.R_end
+  - first:
+      4: 400024
+    second: hand.L
+  - first:
+      4: 400026
+    second: hand.L_end
+  - first:
+      4: 400028
+    second: hand.R
+  - first:
+      4: 400030
+    second: hand.R_end
+  - first:
+      4: 400032
+    second: head
+  - first:
+      4: 400034
+    second: head_end
+  - first:
+      4: 400036
+    second: hip.L
+  - first:
+      4: 400038
+    second: hip.R
+  - first:
+      4: 400040
+    second: LegIK.L
+  - first:
+      4: 400042
+    second: LegIK.L_end
+  - first:
+      4: 400044
+    second: LegIK.R
+  - first:
+      4: 400046
+    second: LegIK.R_end
+  - first:
+      4: 400048
+    second: lowerarm.L
+  - first:
+      4: 400050
+    second: lowerarm.R
+  - first:
+      4: 400052
+    second: LowPoly_boi
+  - first:
+      4: 400054
+    second: LowPoly_boi1
+  - first:
+      4: 400056
+    second: LowPoly_boi2
+  - first:
+      4: 400058
+    second: LowPoly_boi3
+  - first:
+      4: 400060
+    second: neck
+  - first:
+      4: 400062
+    second: PullTarget.L
+  - first:
+      4: 400064
+    second: PullTarget.L_end
+  - first:
+      4: 400066
+    second: PullTarget.R
+  - first:
+      4: 400068
+    second: PullTarget.R_end
+  - first:
+      4: 400070
+    second: shield
+  - first:
+      4: 400072
+    second: sword
+  - first:
+      4: 400074
+    second: upperarm.L
+  - first:
+      4: 400076
+    second: upperarm.R
+  - first:
+      21: 2100000
+    second: No Name
+  - first:
+      21: 2100002
+    second: Material.001
+  - first:
+      21: 2100004
+    second: LowPoly_boi1
+  - first:
+      21: 2100006
+    second: LowPoly_boi2
+  - first:
+      21: 2100008
+    second: LowPoly_boi3
+  - first:
+      21: 2100010
+    second: LowPoly_boi
+  - first:
+      23: 2300000
+    second: shield
+  - first:
+      23: 2300002
+    second: sword
+  - first:
+      33: 3300000
+    second: shield
+  - first:
+      33: 3300002
+    second: sword
+  - first:
+      43: 4300000
+    second: shield
+  - first:
+      43: 4300002
+    second: sword
+  - first:
+      43: 4300004
+    second: LowPoly_boi1
+  - first:
+      43: 4300006
+    second: LowPoly_boi2
+  - first:
+      43: 4300008
+    second: LowPoly_boi3
+  - first:
+      43: 4300010
+    second: LowPoly_boi
+  - first:
+      74: 7400000
+    second: Armature.001|attack
+  - first:
+      74: 7400002
+    second: Armature.001|block
+  - first:
+      74: 7400004
+    second: Armature.001|unblock
+  - first:
+      74: 7400006
+    second: Armature.001|walk
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: LowPoly_boi
+  - first:
+      137: 13700002
+    second: LowPoly_boi1
+  - first:
+      137: 13700004
+    second: LowPoly_boi2
+  - first:
+      137: 13700006
+    second: LowPoly_boi3
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -133,7 +339,123 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature.001|attack
+      takeName: Armature.001|attack
+      internalID: 0
+      firstFrame: 7.4
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.001|block
+      takeName: Armature.001|block
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.001|unblock
+      takeName: Armature.001|unblock
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.001|walk
+      takeName: Armature.001|walk
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -141,6 +463,7 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -148,18 +471,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -168,10 +492,11 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -181,6 +506,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

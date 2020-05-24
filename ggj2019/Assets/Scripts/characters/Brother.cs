@@ -2,62 +2,59 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Brother : MonoBehaviour
+public class Brother : Player
 {
-    public float moveSpeed;
-    public float rotateSpeed;
+    //Basic attack
+    private float swordDamage = 20f;
+    public BoxCollider sword;
 
-    Animator anim;
-    Rigidbody playerBody;
-    float moveX;
-    float rotateX;
-    Vector3 movement;
-    Quaternion rotation;
-    bool playerInRange;
-    // Start is called before the first frame update
-    private void Awake()
+    public override void basicAttack()
     {
-        playerBody = GetComponent<Rigidbody>();
-        anim = GetComponent<Animator>();
-
-    }
-    void Start()
-    {
-
-
+        sword.enabled = true;
+        moveSpeed = 1.0f;
+        Invoke("resetAfterAttack", 0.5f);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        Movement();
-        Rotate();
-        float checkX = Input.GetAxisRaw("Vertical1");
-        moveX = Input.GetAxis("Vertical1");
-        rotateX = Input.GetAxis("Horizontal1");
-        if (checkX ==1 || checkX == -1)
+        for (int i = 0; i < enemies.Length; i++)
         {
-            anim.SetBool("IsWalking", true); 
-        } else
-        {
-            anim.SetBool("IsWalking", false);
+            if (enemies[i] != null)
+            {
+                Collider hit = enemies[i].GetComponent<Collider>();
+                if (other == hit)
+                {
+                    //KnockBack not working to fix 
+                    Rigidbody hitBody = hit.GetComponent<Rigidbody>();
+                    hitBody.AddForce(hitBody.velocity * -1, ForceMode.VelocityChange);
+                    EnemyHealth enemy = hit.GetComponent<EnemyHealth>();
+                    enemy.DamageEnemy(swordDamage);
+                }
+            }
         }
-        
     }
-    void Movement()
+
+    private void resetAfterAttack() 
+    {
+        sword.enabled = false;
+        moveSpeed = 2.0f;
+    }
+
+    public override void powerAttack() 
     {
         
-        movement = transform.forward * moveX * moveSpeed * Time.deltaTime;
-        playerBody.MovePosition(playerBody.position + movement);
     }
-    void Rotate()
+
+    public override void specialAttack()
     {
         
-        float turn = rotateX * rotateSpeed;
-        rotation = Quaternion.Euler(0f, turn, 0f);
-
-        playerBody.MoveRotation(playerBody.rotation * rotation);
     }
 
-
+    public override void setupStats()
+    {
+        setHpRegenTime(2);
+        setHpRegenValue(3);
+        setPowerRegenTime(0.5f);
+        setPowerRegenValue(2);
+    }
 }

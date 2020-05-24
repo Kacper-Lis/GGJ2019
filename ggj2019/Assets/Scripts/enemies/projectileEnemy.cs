@@ -29,7 +29,7 @@ public class projectileEnemy : MonoBehaviour
             if (other == hit)
             {
                 Debug.Log("P hit");
-                Health.TakeDamage(boltDamage);
+                //Health.TakeDamage(boltDamage);
                 Destroy(gameObject);
             }
         }
