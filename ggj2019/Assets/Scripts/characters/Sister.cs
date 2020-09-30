@@ -2,62 +2,79 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Sister : MonoBehaviour
+public class Sister : Player
 {
-    public float moveSpeed;
-    public float rotateSpeed;
+    //Basic Attack
+    public GameObject bolt;
+    public Transform barrelEnd;
 
-    private Animator anim;
+    //Power Attack
+    public Transform exploCenter;
+    private float exploRadius = 2f;
+    private float knockForce = 500f;
+    private float exploDamage = 80f;
 
-    Rigidbody playerBody;
-    float moveX;
-    float rotateX;
-    Vector3 movement;
-    Quaternion rotation;
-    // Start is called before the first frame update
-    private void Awake()
+    private void LateUpdate()
     {
-        playerBody = GetComponent<Rigidbody>();
-        anim = GetComponent<Animator>();
+        if (AnimatorIsPlaying("BasicAttack") || AnimatorIsPlaying("PowerAttack")) 
+        {
+            moveX = 0;
+            rotateX = 0;
+        }
     }
-    // Start is called before the first frame update
-    void Start()
+    public override void basicAttack() 
+    {
+        //Attached event to animation 
+        Instantiate(bolt, barrelEnd);
+    }
+
+    public override void powerAttack() 
+    {
+        //Add Mask to the enemies
+        Collider[] colliders = Physics.OverlapSphere(exploCenter.position, exploRadius, LayerMask.GetMask("Hitbox"));
+
+        exploCenter.GetComponent<ParticleSystem>().Play();
+
+        for (int i = 0; i < colliders.Length; i++) 
+        {
+            if (colliders[i].gameObject.tag != "Enemy")
+                continue;
+
+            Rigidbody targetRigidbody = colliders[i].GetComponent<Rigidbody>();
+            targetRigidbody.AddExplosionForce(knockForce, exploCenter.position, exploRadius);
+
+            EnemyHealth enemy = targetRigidbody.GetComponent<EnemyHealth>();
+
+            enemy.DamageEnemy(CalculateDamage(targetRigidbody.position));
+        }
+    }
+
+    private float CalculateDamage(Vector3 targetPosition)
+    {
+        // Calculate the amount of damage a target should take based on it's position.
+        Vector3 explosionToTarget = targetPosition - exploCenter.position;
+
+        float explosionDistance = explosionToTarget.magnitude;
+
+        float relativeDistance = (exploRadius - explosionDistance) / exploRadius;
+
+        float damage = relativeDistance * exploDamage;
+
+        damage = Mathf.Max(5f, damage);
+
+        return damage;
+    }
+
+    public override void specialAttack()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void setupStats()
     {
-        Movement();
-        Rotate();
-        float checkX = Input.GetAxisRaw("Vertical1");
-        moveX = Input.GetAxis("Vertical1");
-        rotateX = Input.GetAxis("Horizontal1");
-        if (checkX == 1 || checkX == -1)
-        {
-            anim.SetBool("IsMoving", true);
-        }
-        else
-        {
-            anim.SetBool("IsMoving", false);
-        }
-
-
+        setHpRegenTime(3);
+        setHpRegenValue(2);
+        setPowerRegenTime(0.5f);
+        setPowerRegenValue(5);
     }
-    void Movement()
-    {
-        moveX = Input.GetAxis("Vertical");
-        movement = transform.forward * moveX * moveSpeed * Time.deltaTime;
-        playerBody.MovePosition(playerBody.position + movement);
-    }
-    void Rotate()
-    {
-        rotateX = Input.GetAxis("Horizontal");
-        float turn = rotateX * rotateSpeed;
-        rotation = Quaternion.Euler(0f, turn, 0f);
-
-        playerBody.MoveRotation(playerBody.rotation * rotation);
-    }
-
 }

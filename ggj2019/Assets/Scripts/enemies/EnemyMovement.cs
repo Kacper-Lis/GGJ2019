@@ -6,9 +6,12 @@ using UnityEngine.AI;
 public class EnemyMovement : MonoBehaviour
 {
 
-    public Transform Sister;
-    public Transform Brother;
-    
+    private GameObject SisterObject;
+    private GameObject BrotherObject;
+
+    private Transform Sister;
+    private Transform Brother;
+
     //public GameObject playerHP;
     //public EnemyHealth enemyHP;
     
@@ -23,6 +26,10 @@ public class EnemyMovement : MonoBehaviour
 
     void Awake ()
     {
+        SisterObject = GameObject.Find("Poly");
+        BrotherObject = GameObject.Find("Brother");
+        Sister = SisterObject.GetComponent<Transform>();
+        Brother = BrotherObject.GetComponent<Transform>();
         nav = GetComponent <NavMeshAgent> ();
     }
 

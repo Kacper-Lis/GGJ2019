@@ -905,7 +905,6 @@ GameObject:
   - component: {fileID: 599198282944348309}
   - component: {fileID: 599198282944348308}
   - component: {fileID: 599198282944348311}
-  - component: {fileID: 7629236090779603959}
   m_Layer: 9
   m_Name: Cylinder
   m_TagString: Untagged
@@ -960,6 +959,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -985,24 +985,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.01, z: 0.03}
   m_Center: {x: -0.006626941, y: 0.0049930806, z: 0.013}
---- !u!114 &7629236090779603959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 599198282944348305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a7074a112747d348a4c725ae6fde531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackRest: 1.5
-  Damage: 10
-  players: []
-  Sister: {fileID: 1743440016068849976, guid: 86bf88e26366df54eb7476a29b195eb6, type: 3}
-  Brother: {fileID: 1859484131, guid: cbd8ac7b0be12514c9dc7aacf946ae40, type: 3}
-  Manager: {fileID: 9029718560865884902, guid: b9ab171c335e6dd40beacc5b987136e5, type: 3}
 --- !u!1 &599198283030238846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1059,6 +1041,7 @@ SkinnedMeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1213,10 +1196,9 @@ GameObject:
   - component: {fileID: 599198283345210438}
   - component: {fileID: 599198283345210433}
   - component: {fileID: 599198283345210432}
-  - component: {fileID: 599198283345210434}
-  - component: {fileID: 599198283345210445}
   - component: {fileID: 599198283345210444}
   - component: {fileID: 599198283345210447}
+  - component: {fileID: 4607779616608465125}
   m_Layer: 9
   m_Name: Doll
   m_TagString: Enemy
@@ -1274,35 +1256,6 @@ CapsuleCollider:
   m_Height: 6.53
   m_Direction: 1
   m_Center: {x: 0, y: 3.54, z: 0}
---- !u!114 &599198283345210434
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 599198283345210446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bc7c9b44c024c64bbe76b3e51d086a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Sister: {fileID: 1743440016068849976, guid: 86bf88e26366df54eb7476a29b195eb6, type: 3}
-  Brother: {fileID: 1859484131, guid: cbd8ac7b0be12514c9dc7aacf946ae40, type: 3}
---- !u!114 &599198283345210445
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 599198283345210446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4dc5d06a8892dc24ab4ed76bfb981ec1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hpM: 40
-  ScorePoints: 20
-  delay: 0
 --- !u!54 &599198283345210444
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1341,3 +1294,17 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &4607779616608465125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599198283345210446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bc50d9910f7fe140881d4bbf8f2eea1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HP: 50
+  ScorePoints: 40

@@ -48,7 +48,7 @@ public class EnemyMelee : MonoBehaviour
                 if (other == hit)
                 {
                     //RangeHealth rangeHealth = hit.GetComponent<RangeHealth>();
-                    Health.TakeDamage(Damage);
+                    //Health.TakeDamage(Damage);
                     //rangeHealth.DamageEnemy(swordDamage);
                 }
             }
